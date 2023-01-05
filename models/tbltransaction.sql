@@ -68,7 +68,7 @@ SELECT cast("ID" as int) as "ID",
 	cast(ClaimDelayReasonID as int) ClaimDelayReasonID,
 	cast(CollectionFlag as int) CollectionFlag,
 	cast(InstanceID as int) InstanceID,
-	cast(AssignedToID as int) NUAssignedToIDLL,
+	cast(nuassignedtoidll as int) nuassignedtoidll,
 	cast(NursingHomeBedType as int) NursingHomeBedType,
 	cast(HomeboundIndicator as int) HomeboundIndicator,
 	cast(StatisticStatus as int) StatisticStatus,
@@ -154,4 +154,4 @@ SELECT cast("ID" as int) as "ID",
 	cast(LatestPrimaryTransactionPayerID as int) LatestPrimaryTransactionPayerID,
 	cast(Reassigned as int) Reassigned,
 	cast(CreditDate as date) CreditDate
-FROM dbo.tbltransaction
+FROM {{ source('dbo', 'tbltransaction') }}
