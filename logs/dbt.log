@@ -1,0 +1,1994 @@
+
+
+============================== 2023-01-04 12:47:59.656122 | d97888d8-3861-419b-83c2-a44f3c052d07 ==============================
+[0m12:47:59.656132 [info ] [MainThread]: Running with dbt=1.2.0
+[0m12:47:59.656458 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/user/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m12:47:59.656583 [debug] [MainThread]: Tracking: tracking
+[0m12:47:59.665696 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e1f50b370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e1f50b430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e1f50b4f0>]}
+[0m12:48:08.364769 [debug] [MainThread]: Starter project path: /home/user/.local/lib/python3.8/site-packages/dbt/include/starter_project
+[0m12:48:12.488271 [info ] [MainThread]: 
+Your new dbt project "airbyte" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:48:12.488714 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e1f50b4f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e1f50b910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3e1f50b790>]}
+
+
+============================== 2023-01-05 05:08:41.454904 | 987624a7-7a99-41b2-99f7-39e20203bf70 ==============================
+[0m05:08:41.454918 [info ] [MainThread]: Running with dbt=1.2.0
+[0m05:08:41.455403 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/user/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'deps', 'rpc_method': 'deps', 'indirect_selection': 'eager'}
+[0m05:08:41.455540 [debug] [MainThread]: Tracking: tracking
+[0m05:08:41.464039 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1e73f1b0a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1e73f1b160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1e73f1b190>]}
+[0m05:08:41.464504 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m05:08:41.465022 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1e73f1b160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1e73f1b190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1e73f1b250>]}
+
+
+============================== 2023-01-05 05:08:48.409200 | fc1bf8d9-b2e3-4e72-adb3-5d23948d0144 ==============================
+[0m05:08:48.409211 [info ] [MainThread]: Running with dbt=1.2.0
+[0m05:08:48.409548 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/user/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m05:08:48.409734 [debug] [MainThread]: Tracking: tracking
+[0m05:08:48.418450 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea94001f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea9400640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea9400400>]}
+[0m05:08:48.471490 [debug] [MainThread]: Executing "git --help"
+[0m05:08:48.475723 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m05:08:48.476070 [debug] [MainThread]: STDERR: "b''"
+[0m05:08:48.476476 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea79c6d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea79bdd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ea79bdf10>]}
+
+
+============================== 2023-01-05 05:09:14.667328 | 07596b8d-e168-4cf2-843d-53b0087d30f1 ==============================
+[0m05:09:14.667340 [info ] [MainThread]: Running with dbt=1.2.0
+[0m05:09:14.667675 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/user/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m05:09:14.667806 [debug] [MainThread]: Tracking: tracking
+[0m05:09:14.676951 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa131f3f310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa131f3f1f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa131f3f850>]}
+[0m05:09:14.736910 [debug] [MainThread]: Executing "git --help"
+[0m05:09:14.740488 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m05:09:14.740882 [debug] [MainThread]: STDERR: "b''"
+[0m05:09:14.741289 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1305065e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1304ffdf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa1304ffaf0>]}
+
+
+============================== 2023-01-05 05:11:02.725297 | dfd488b5-b13e-47d6-bdb1-c380f56b23ab ==============================
+[0m05:11:02.725309 [info ] [MainThread]: Running with dbt=1.2.0
+[0m05:11:02.725639 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/user/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m05:11:02.725769 [debug] [MainThread]: Tracking: tracking
+[0m05:11:02.734143 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa57942c280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa57942c2b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa57942c790>]}
+[0m05:11:02.807385 [debug] [MainThread]: Executing "git --help"
+[0m05:11:02.812067 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m05:11:02.812467 [debug] [MainThread]: STDERR: "b''"
+[0m05:11:02.812884 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa5779f3700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa5779eba30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa5779ebee0>]}
+
+
+============================== 2023-01-05 05:11:54.350305 | 969a5bbb-f2c4-4267-a65b-6a44f831fae8 ==============================
+[0m05:11:54.350316 [info ] [MainThread]: Running with dbt=1.2.0
+[0m05:11:54.350650 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/user/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m05:11:54.350833 [debug] [MainThread]: Tracking: tracking
+[0m05:11:54.359253 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3edacb2220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3edacb2580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3edacb2250>]}
+[0m05:11:54.426544 [debug] [MainThread]: Executing "git --help"
+[0m05:11:54.435722 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m05:11:54.436625 [debug] [MainThread]: STDERR: "b''"
+[0m05:11:54.437418 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ed9279e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ed9271f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ed9271be0>]}
+
+
+============================== 2023-01-05 05:12:10.646995 | 41c80843-783d-45d7-b303-f3db42886b63 ==============================
+[0m05:12:10.647006 [info ] [MainThread]: Running with dbt=1.2.0
+[0m05:12:10.647357 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/user/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m05:12:10.647491 [debug] [MainThread]: Tracking: tracking
+[0m05:12:10.655791 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faee4d91310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faee4d91520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faee4d911f0>]}
+[0m05:12:10.710170 [debug] [MainThread]: Executing "git --help"
+[0m05:12:10.717783 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m05:12:10.718327 [debug] [MainThread]: STDERR: "b''"
+[0m05:12:10.718982 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faee3359c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faee3354fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7faee3354e20>]}
+
+
+============================== 2023-01-05 05:13:17.835481 | 2cd96cf1-f85c-4284-a0e0-72c2afe29b73 ==============================
+[0m05:13:17.835503 [info ] [MainThread]: Running with dbt=1.2.0
+[0m05:13:17.835931 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/user/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'select': ['tbltransaction'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m05:13:17.836075 [debug] [MainThread]: Tracking: tracking
+[0m05:13:17.844969 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fda3ecc8e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fda3ecc8f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fda3ecc8f40>]}
+[0m05:13:17.857877 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m05:13:17.858344 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '2cd96cf1-f85c-4284-a0e0-72c2afe29b73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fda3ecd0df0>]}
+[0m05:13:17.913389 [debug] [MainThread]: Parsing macros/relations.sql
+[0m05:13:17.915530 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m05:13:17.946439 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m05:13:17.950085 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m05:13:17.951749 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m05:13:17.952830 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m05:13:17.953319 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m05:13:17.954680 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m05:13:17.955900 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m05:13:17.962103 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m05:13:17.962841 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m05:13:17.965686 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m05:13:17.970816 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m05:13:17.977460 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m05:13:17.980547 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m05:13:17.984031 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m05:13:17.999303 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m05:13:18.001216 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m05:13:18.021303 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m05:13:18.033708 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m05:13:18.050840 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m05:13:18.057107 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m05:13:18.058492 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m05:13:18.073112 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m05:13:18.114471 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m05:13:18.124583 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m05:13:18.128977 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m05:13:18.131200 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m05:13:18.132464 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m05:13:18.137424 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m05:13:18.140551 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m05:13:18.145694 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m05:13:18.148458 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m05:13:18.149864 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m05:13:18.152130 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m05:13:18.153707 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m05:13:18.154533 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m05:13:18.155800 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m05:13:18.156479 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m05:13:18.157256 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m05:13:18.164936 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m05:13:18.169093 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m05:13:18.171800 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m05:13:18.185217 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m05:13:18.189345 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m05:13:18.198335 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m05:13:18.200422 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m05:13:18.202954 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m05:13:18.215635 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m05:13:18.222122 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m05:13:18.223132 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m05:13:18.224139 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m05:13:18.225271 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m05:13:18.227123 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m05:13:18.228173 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m05:13:18.229069 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m05:13:18.229958 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m05:13:18.230968 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m05:13:18.236843 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m05:13:18.237975 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m05:13:18.240265 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m05:13:18.242021 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m05:13:18.242835 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m05:13:18.244076 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m05:13:18.245143 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m05:13:18.246194 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m05:13:18.247111 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m05:13:18.248132 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m05:13:18.248950 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m05:13:18.250240 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m05:13:18.251537 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m05:13:18.467368 [debug] [MainThread]: 1699: static parser successfully parsed tbltransaction.sql
+[0m05:13:18.497929 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.airbyte.example
+
+[0m05:13:18.503431 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2cd96cf1-f85c-4284-a0e0-72c2afe29b73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fda40e05460>]}
+[0m05:13:18.508029 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2cd96cf1-f85c-4284-a0e0-72c2afe29b73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fda3ecc8220>]}
+[0m05:13:18.508314 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m05:13:18.508582 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2cd96cf1-f85c-4284-a0e0-72c2afe29b73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fda3ec8d880>]}
+[0m05:13:18.509562 [info ] [MainThread]: 
+[0m05:13:18.510104 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m05:13:18.510855 [debug] [ThreadPool]: Acquiring new postgres connection "list_test_sql_server"
+[0m05:13:18.522383 [debug] [ThreadPool]: Using postgres connection "list_test_sql_server"
+[0m05:13:18.522672 [debug] [ThreadPool]: On list_test_sql_server: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "connection_name": "list_test_sql_server"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m05:13:18.522845 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:13:18.538792 [debug] [ThreadPool]: SQL status: SELECT 7 in 0.02 seconds
+[0m05:13:18.540172 [debug] [ThreadPool]: On list_test_sql_server: Close
+[0m05:13:18.540933 [debug] [ThreadPool]: Acquiring new postgres connection "create_test_sql_server_dbo_dwh"
+[0m05:13:18.541288 [debug] [ThreadPool]: Acquiring new postgres connection "create_test_sql_server_dbo_dwh"
+[0m05:13:18.541536 [debug] [ThreadPool]: Creating schema "_ReferenceKey(database='test_sql_server', schema='dbo_dwh', identifier=None)"
+[0m05:13:18.546862 [debug] [ThreadPool]: Using postgres connection "create_test_sql_server_dbo_dwh"
+[0m05:13:18.547064 [debug] [ThreadPool]: On create_test_sql_server_dbo_dwh: BEGIN
+[0m05:13:18.547190 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m05:13:18.553114 [debug] [ThreadPool]: SQL status: BEGIN in 0.01 seconds
+[0m05:13:18.553411 [debug] [ThreadPool]: Using postgres connection "create_test_sql_server_dbo_dwh"
+[0m05:13:18.553615 [debug] [ThreadPool]: On create_test_sql_server_dbo_dwh: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "connection_name": "create_test_sql_server_dbo_dwh"} */
+create schema if not exists "dbo_dwh"
+[0m05:13:18.554530 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.0 seconds
+[0m05:13:18.555610 [debug] [ThreadPool]: On create_test_sql_server_dbo_dwh: COMMIT
+[0m05:13:18.555838 [debug] [ThreadPool]: Using postgres connection "create_test_sql_server_dbo_dwh"
+[0m05:13:18.555990 [debug] [ThreadPool]: On create_test_sql_server_dbo_dwh: COMMIT
+[0m05:13:18.556610 [debug] [ThreadPool]: SQL status: COMMIT in 0.0 seconds
+[0m05:13:18.556862 [debug] [ThreadPool]: On create_test_sql_server_dbo_dwh: Close
+[0m05:13:18.558044 [debug] [ThreadPool]: Acquiring new postgres connection "list_test_sql_server_dbo_dwh"
+[0m05:13:18.564464 [debug] [ThreadPool]: Using postgres connection "list_test_sql_server_dbo_dwh"
+[0m05:13:18.564692 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: BEGIN
+[0m05:13:18.564845 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m05:13:18.569721 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m05:13:18.569920 [debug] [ThreadPool]: Using postgres connection "list_test_sql_server_dbo_dwh"
+[0m05:13:18.570046 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "connection_name": "list_test_sql_server_dbo_dwh"} */
+select
+      'test_sql_server' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'dbo_dwh'
+    union all
+    select
+      'test_sql_server' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'dbo_dwh'
+  
+[0m05:13:18.573182 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+[0m05:13:18.574181 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: ROLLBACK
+[0m05:13:18.574444 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: Close
+[0m05:13:18.579173 [debug] [MainThread]: Using postgres connection "master"
+[0m05:13:18.579390 [debug] [MainThread]: On master: BEGIN
+[0m05:13:18.579548 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:13:18.583860 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m05:13:18.584112 [debug] [MainThread]: Using postgres connection "master"
+[0m05:13:18.584287 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m05:13:18.594149 [debug] [MainThread]: SQL status: SELECT 0 in 0.01 seconds
+[0m05:13:18.595930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2cd96cf1-f85c-4284-a0e0-72c2afe29b73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fda3ed50c70>]}
+[0m05:13:18.596578 [debug] [MainThread]: On master: ROLLBACK
+[0m05:13:18.597232 [debug] [MainThread]: Using postgres connection "master"
+[0m05:13:18.597494 [debug] [MainThread]: On master: BEGIN
+[0m05:13:18.597936 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m05:13:18.598178 [debug] [MainThread]: On master: COMMIT
+[0m05:13:18.598393 [debug] [MainThread]: Using postgres connection "master"
+[0m05:13:18.598651 [debug] [MainThread]: On master: COMMIT
+[0m05:13:18.599140 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m05:13:18.599482 [debug] [MainThread]: On master: Close
+[0m05:13:18.600367 [info ] [MainThread]: Concurrency: 3 threads (target='dev')
+[0m05:13:18.601108 [info ] [MainThread]: 
+[0m05:13:18.624032 [debug] [Thread-1  ]: Began running node model.airbyte.tbltransaction
+[0m05:13:18.624917 [info ] [Thread-1  ]: 1 of 1 START view model dbo_dwh.tbltransaction ................................. [RUN]
+[0m05:13:18.625881 [debug] [Thread-1  ]: Acquiring new postgres connection "model.airbyte.tbltransaction"
+[0m05:13:18.626206 [debug] [Thread-1  ]: Began compiling node model.airbyte.tbltransaction
+[0m05:13:18.626466 [debug] [Thread-1  ]: Compiling model.airbyte.tbltransaction
+[0m05:13:18.628667 [debug] [Thread-1  ]: Writing injected SQL for node "model.airbyte.tbltransaction"
+[0m05:13:18.629106 [debug] [Thread-1  ]: finished collecting timing info
+[0m05:13:18.629273 [debug] [Thread-1  ]: Began executing node model.airbyte.tbltransaction
+[0m05:13:18.665963 [debug] [Thread-1  ]: Writing runtime SQL for node "model.airbyte.tbltransaction"
+[0m05:13:18.666435 [debug] [Thread-1  ]: Using postgres connection "model.airbyte.tbltransaction"
+[0m05:13:18.666586 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: BEGIN
+[0m05:13:18.666703 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m05:13:18.671104 [debug] [Thread-1  ]: SQL status: BEGIN in 0.0 seconds
+[0m05:13:18.671319 [debug] [Thread-1  ]: Using postgres connection "model.airbyte.tbltransaction"
+[0m05:13:18.671454 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "node_id": "model.airbyte.tbltransaction"} */
+
+  create view "test_sql_server"."dbo_dwh"."tbltransaction__dbt_tmp" as (
+    SELECT cast(ID as int) as ID,
+	cast(PostDate as datetime) as PostDate,
+	cast(CloseFlag as int) as CloseFlag,
+	cast(ReceivedDate as datetime) as ReceivedDate,
+	cast(DataType as int) as DataType,
+	cast(ProcessingStatus as int) as ProcessingStatus,
+	cast(BillingIteration as int) as BillingIteration,
+	cast(AccountID as int) AccountID,
+	cast(ClientID as int) ClientID,
+	cast(MasterClientID as int) MasterClientID,
+	cast(FinancialClassID as int) FinancialClassID,
+	cast(CompanyID as int) CompanyID,
+	cast(PerformingLabID as int) PerformingLabID,
+	cast(PatientClassID as int) PatientClassID,
+	cast(PlaceofServiceID as int) PlaceofServiceID,
+	cast(ProviderID as int) ProviderID,
+	cast(ServiceDate as datetime) ServiceDate,
+	cast(ServiceTime as datetime) ServiceTime,
+	cast(RenderingProviderID as int) RenderingProviderID,
+	cast(TransactionType as int) TransactionType,
+	cast(Quantity as int) Quantity,
+	cast(ProcedureID as int) ProcedureID,
+	cast(DepartmentID as int) DepartmentID,
+	cast(OverrideProcedureDescription as varchar(50)) OverrideProcedureDescription,
+	cast(ComponentType as int) ComponentType,
+	cast(StatFlag as int) StatFlag,
+	cast(Subidentifier as varchar(2)) Subidentifier,
+	cast(CPT as varchar(5)) CPT,
+	cast(Modifier1 as varchar(2)) Modifier1,
+	cast(Modifier2 as varchar(2)) Modifier2,
+	cast(Modifier3 as varchar(2)) Modifier3,
+	cast(Modifier4 as varchar(2)) Modifier4,
+	cast(CPTQuantity as int) CPTQuantity,
+	cast(Units as decimal(4,1)) Units,
+	cast(NationalDrugCode as int) NationalDrugCode,
+	cast(SingleQuantityPrice as NUMERIC) SingleQuantityPrice,
+	cast(OriginalAmount as NUMERIC) OriginalAmount,
+	cast(CurrentBalance as NUMERIC) CurrentBalance,
+	cast(ClientCapitatedContract as int) ClientCapitatedContract,
+	cast(UsualCharge as numeric) UsualCharge,
+	cast(OriginationFlag as int) OriginationFlag,
+	cast(LabTestIdentifier as varchar(20)) LabTestIdentifier,
+	cast(BillClientFlag as int) BillClientFlag,
+	cast(CurrentResponsibilityFlag as int) CurrentResponsibilityFlag,
+	cast(BillAccountReason as int) BillAccountReason,
+	cast(BillGuarantorDate as datetime) BillGuarantorDate,
+	cast(GuarantorCareFacilityID as int) GuarantorCareFacilityID,
+	cast(BillClientReason as int) BillClientReason,
+	cast(ABNFlag as int) ABNFlag,
+	cast(InvoiceStatus as int) InvoiceStatus,
+	cast(InvoiceTo as int) InvoiceTo,
+	cast(InvoiceType as int) InvoiceType,
+	cast(StatementStatus as int) StatementStatus,
+	cast(FirstStatementDate as datetime) FirstStatementDate,
+	cast(CopayStatementStatus as varchar(50)) CopayStatementStatus,
+	cast(ClaimStatus as int) ClaimStatus,
+	cast(PayerID1 as int) PayerID1,
+	cast(Payer1ClaimID as int) Payer1ClaimID,
+	cast(PayerID2 as int) PayerID2,
+	cast(Payer2ClaimID as int) Payer2ClaimID,
+	cast(PayerID3 as int) PayerID3,
+	cast(Payer3ClaimID as int) Payer3ClaimID,
+	cast(NotificationStatus as int) NotificationStatus,
+	cast(SubmissionReadyDate as datetime) SubmissionReadyDate,
+	cast(ClaimAmendmentFlag as int) ClaimAmendmentFlag,
+	cast(ClaimDelayReasonID as int) ClaimDelayReasonID,
+	cast(CollectionFlag as int) CollectionFlag,
+	cast(InstanceID as int) InstanceID,
+	cast(AssignedToID as int) NUAssignedToIDLL,
+	cast(NursingHomeBedType as int) NursingHomeBedType,
+	cast(HomeboundIndicator as int) HomeboundIndicator,
+	cast(StatisticStatus as int) StatisticStatus,
+	cast(CreditApplied as int) CreditApplied,
+	cast(PurgeFlag as int) PurgeFlag,
+	cast(PurgeDate as datetime) PurgeDate,
+	cast(ChangedDT as datetime) ChangedDT,
+	cast(ChangedByID as int) ChangedByID,
+	cast(Locked as int) Locked,
+	cast(LockedByID as int) LockedByID,
+	cast(BadDebtFlag as int) BadDebtFlag,
+	cast(HostBillToAccountNumber as varchar(20)) HostBillToAccountNumber,
+	cast(PQRI as int) PQRI,
+	cast(ClientContractID as int) ClientContractID,
+	cast(ClientContractType as int) ClientContractType,
+	cast(CollectionState as varchar(2)) CollectionState,
+	cast(CollectedAt as int) CollectedAt,
+	cast(PurchasedService as int) PurchasedService,
+	cast(TravelFlag as int) TravelFlag,
+	cast(PairedTravelTransactionID as int) PairedTravelTransactionID,
+	cast(ParentTransactionID as int) ParentTransactionID,
+	cast(ParentProcedureID as int) ParentProcedureID,
+	cast(ExpectedReimbursement as numeric) ExpectedReimbursement,
+	cast(FirstNotificationDate as datetime) FirstNotificationDate,
+	cast(PSCID as int) PSCID,
+	cast(ContractProjectCode as varchar(50)) ContractProjectCode,
+	cast(AnalyteQuantity as int) AnalyteQuantity,
+	cast(TrxField1ID as int) TrxField1ID,
+	cast(TrxField2 as varchar(50)) TrxField2,
+	cast(ProviderSignatureValidation as int) ProviderSignatureValidation,
+	cast(TestCompletionFlag as int) TestCompletionFlag,
+	cast(OrderIdentifier as varchar(20)) OrderIdentifier,
+	cast(ARBalance as numeric) ARBalance,
+	cast(ARStatus as int) ARStatus,
+	cast(RetainDistinctServiceModifier as int) RetainDistinctServiceModifier,
+	cast(OMPhlebotomistID as int) OMPhlebotomistID,
+	cast(StatementHoldExpiration as datetime) StatementHoldExpiration,
+	cast(Sub1InstanceID as int) Sub1InstanceID,
+	cast(Sub2InstanceID as int) Sub2InstanceID,
+	cast(ARClosedDate as datetime) ARClosedDate,
+	cast(OriginatingDate as datetime) OriginatingDate,
+	cast(DivisionID as int) DivisionID,
+	cast(TransactionNotes as int) TransactionNotes,
+	cast(LatestNoteDate as datetime) LatestNoteDate,
+	cast(Transition as int) Transition,
+	cast(PrimaryAllowedAmount as numeric) PrimaryAllowedAmount,
+	cast(TransitionClaimNumber as varchar(38)) TransitionClaimNumber,
+	cast(TrxField8 as date) TrxField8,
+	cast(FirstBillDate as date) FirstBillDate,
+	cast(Hospice as int) Hospice,
+	cast(TrxField3 as date) TrxField3,
+	cast(TrxField4 as time) TrxField4,
+	cast(TrxField5 as varchar(100)) TrxField5,
+	cast(TrxField6 as varchar(50)) TrxField6,
+	cast(TrxField7 as varchar(20)) TrxField7,
+	cast(ExpectedNet as numeric) ExpectedNet,
+	cast(CreatedDate as datetime) CreatedDate,
+	cast(OMClientClassification1ID as int) OMClientClassification1ID,
+	cast(OMClientClassification2ID as int) OMClientClassification2ID,
+	cast(OMClientClassification3ID as int) OMClientClassification3ID,
+	cast(OMClientRepSalesUserID as int) OMClientRepSalesUserID,
+	cast(OMClientAcquisitionID as int) OMClientAcquisitionID,
+	cast(NormalizedCPT as varchar(25)) NormalizedCPT,
+	cast(ProcedureCostID as int) ProcedureCostID,
+	cast(RequisitionID as int) RequisitionID,
+	cast(ReqUpdateFlag as int) ReqUpdateFlag,
+	cast(TotalQuantity as int) TotalQuantity,
+	cast(TotalChargeAmount as numeric) TotalChargeAmount,
+	cast(TotalPaymentAmount as numeric) TotalPaymentAmount,
+	cast(ChargeSubtotal as numeric) ChargeSubtotal,
+	cast(CreditSubtotal as numeric) CreditSubtotal,
+	cast(PayerPaymentSubtotal as numeric) PayerPaymentSubtotal,
+	cast(PatientPaymentSubtotal as numeric) PatientPaymentSubtotal,
+	cast(ContractualAdjustmentSubtotal as numeric) ContractualAdjustmentSubtotal,
+	cast(OtherAdjustmentSubtotal as numeric) OtherAdjustmentSubtotal,
+	cast(RefundSubtotal as numeric) RefundSubtotal,
+	cast(OMClientTransportationRuleID as int) OMClientTransportationRuleID,
+	cast(InstallmentAgreementFlag as int) InstallmentAgreementFlag,
+	cast(CurrentBISInstallmentID as int) CurrentBISInstallmentID,
+	cast(LatestPrimaryAccountPayerID as int) LatestPrimaryAccountPayerID,
+	cast(LatestPrimaryPayerID as int) LatestPrimaryPayerID,
+	cast(DiagnosisList as varchar) DiagnosisList,
+	cast(LatestPrimaryTransactionPayerID as int) LatestPrimaryTransactionPayerID,
+	cast(Reassigned as int) Reassigned,
+	cast(CreditDate as date) CreditDate
+FROM dbo.tbltransaction
+  );
+[0m05:13:18.672149 [debug] [Thread-1  ]: Postgres adapter: Postgres error: syntax error at or near "Locked"
+LINE 81:  cast(Locked as int) Locked,
+                              ^
+
+[0m05:13:18.672311 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: ROLLBACK
+[0m05:13:18.672679 [debug] [Thread-1  ]: finished collecting timing info
+[0m05:13:18.672876 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: Close
+[0m05:13:18.673292 [debug] [Thread-1  ]: Database Error in model tbltransaction (models/tbltransaction.sql)
+  syntax error at or near "Locked"
+  LINE 81:  cast(Locked as int) Locked,
+                                ^
+  compiled SQL at target/run/airbyte/models/tbltransaction.sql
+[0m05:13:18.673583 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2cd96cf1-f85c-4284-a0e0-72c2afe29b73', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fda3c315250>]}
+[0m05:13:18.673996 [error] [Thread-1  ]: 1 of 1 ERROR creating view model dbo_dwh.tbltransaction ........................ [[31mERROR[0m in 0.05s]
+[0m05:13:18.674471 [debug] [Thread-1  ]: Finished running node model.airbyte.tbltransaction
+[0m05:13:18.675478 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m05:13:18.675695 [debug] [MainThread]: Using postgres connection "master"
+[0m05:13:18.675825 [debug] [MainThread]: On master: BEGIN
+[0m05:13:18.675939 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m05:13:18.680333 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m05:13:18.680646 [debug] [MainThread]: On master: COMMIT
+[0m05:13:18.680856 [debug] [MainThread]: Using postgres connection "master"
+[0m05:13:18.681030 [debug] [MainThread]: On master: COMMIT
+[0m05:13:18.681273 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m05:13:18.681470 [debug] [MainThread]: On master: Close
+[0m05:13:18.682024 [info ] [MainThread]: 
+[0m05:13:18.682380 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.17 seconds (0.17s).
+[0m05:13:18.682734 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m05:13:18.682910 [debug] [MainThread]: Connection 'model.airbyte.tbltransaction' was properly closed.
+[0m05:13:18.690870 [info ] [MainThread]: 
+[0m05:13:18.691178 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m05:13:18.691561 [info ] [MainThread]: 
+[0m05:13:18.691872 [error] [MainThread]: [33mDatabase Error in model tbltransaction (models/tbltransaction.sql)[0m
+[0m05:13:18.692198 [error] [MainThread]:   syntax error at or near "Locked"
+[0m05:13:18.692528 [error] [MainThread]:   LINE 81:  cast(Locked as int) Locked,
+[0m05:13:18.692826 [error] [MainThread]:                                 ^
+[0m05:13:18.693114 [error] [MainThread]:   compiled SQL at target/run/airbyte/models/tbltransaction.sql
+[0m05:13:18.693403 [info ] [MainThread]: 
+[0m05:13:18.693701 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m05:13:18.694113 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fda3d36e0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fda3d36e190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fda3d36e0a0>]}
+
+
+============================== 2023-01-05 05:13:38.016473 | 09a403b8-89fc-4223-8361-7f801f679667 ==============================
+[0m05:13:38.016519 [info ] [MainThread]: Running with dbt=1.2.0
+[0m05:13:38.017127 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/user/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'select': ['tbltransaction'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m05:13:38.017272 [debug] [MainThread]: Tracking: tracking
+[0m05:13:38.025654 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd57400df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd57400eb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd57400ee0>]}
+[0m05:13:38.042949 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m05:13:38.043326 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '09a403b8-89fc-4223-8361-7f801f679667', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd5741bbb0>]}
+[0m05:13:38.084977 [debug] [MainThread]: Parsing macros/relations.sql
+[0m05:13:38.086806 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m05:13:38.111892 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m05:13:38.114868 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+[0m05:13:38.117656 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m05:13:38.118935 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m05:13:38.119449 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m05:13:38.120862 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m05:13:38.122239 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m05:13:38.128469 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m05:13:38.129331 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m05:13:38.131681 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m05:13:38.135382 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m05:13:38.139470 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m05:13:38.141198 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m05:13:38.142916 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m05:13:38.156427 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m05:13:38.158274 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m05:13:38.176896 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m05:13:38.188850 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m05:13:38.213005 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m05:13:38.225327 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m05:13:38.228047 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m05:13:38.252225 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m05:13:38.267475 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m05:13:38.275898 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m05:13:38.279987 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m05:13:38.282134 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m05:13:38.283336 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m05:13:38.288140 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m05:13:38.291153 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m05:13:38.296028 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m05:13:38.298682 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m05:13:38.300049 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m05:13:38.302485 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m05:13:38.303950 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m05:13:38.304777 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m05:13:38.306039 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m05:13:38.306688 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m05:13:38.307447 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m05:13:38.314971 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m05:13:38.319048 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m05:13:38.321743 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m05:13:38.334927 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m05:13:38.338974 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m05:13:38.347571 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m05:13:38.349554 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m05:13:38.351973 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m05:13:38.364511 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m05:13:38.370913 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m05:13:38.371884 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m05:13:38.372876 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m05:13:38.374001 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m05:13:38.376009 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m05:13:38.376940 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m05:13:38.377814 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m05:13:38.378688 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m05:13:38.379687 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m05:13:38.384978 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m05:13:38.386140 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m05:13:38.388168 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m05:13:38.389823 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m05:13:38.390592 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m05:13:38.391723 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m05:13:38.392730 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m05:13:38.393734 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m05:13:38.394591 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m05:13:38.395556 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m05:13:38.396323 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m05:13:38.397293 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m05:13:38.398558 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m05:13:38.605219 [debug] [MainThread]: 1699: static parser successfully parsed tbltransaction.sql
+[0m05:13:38.634967 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.airbyte.example
+
+[0m05:13:38.641201 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '09a403b8-89fc-4223-8361-7f801f679667', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd57443790>]}
+[0m05:13:38.649753 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '09a403b8-89fc-4223-8361-7f801f679667', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd573bfca0>]}
+[0m05:13:38.650232 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m05:13:38.650655 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '09a403b8-89fc-4223-8361-7f801f679667', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd574b4f70>]}
+[0m05:13:38.652131 [info ] [MainThread]: 
+[0m05:13:38.652760 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m05:13:38.653442 [debug] [ThreadPool]: Acquiring new postgres connection "list_test_sql_server"
+[0m05:13:38.662846 [debug] [ThreadPool]: Using postgres connection "list_test_sql_server"
+[0m05:13:38.663065 [debug] [ThreadPool]: On list_test_sql_server: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "connection_name": "list_test_sql_server"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m05:13:38.663214 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:13:38.669389 [debug] [ThreadPool]: SQL status: SELECT 8 in 0.01 seconds
+[0m05:13:38.670579 [debug] [ThreadPool]: On list_test_sql_server: Close
+[0m05:13:38.671667 [debug] [ThreadPool]: Acquiring new postgres connection "list_test_sql_server_dbo_dwh"
+[0m05:13:38.676989 [debug] [ThreadPool]: Using postgres connection "list_test_sql_server_dbo_dwh"
+[0m05:13:38.677172 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: BEGIN
+[0m05:13:38.677289 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m05:13:38.681560 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m05:13:38.681760 [debug] [ThreadPool]: Using postgres connection "list_test_sql_server_dbo_dwh"
+[0m05:13:38.681883 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "connection_name": "list_test_sql_server_dbo_dwh"} */
+select
+      'test_sql_server' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'dbo_dwh'
+    union all
+    select
+      'test_sql_server' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'dbo_dwh'
+  
+[0m05:13:38.683735 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+[0m05:13:38.684776 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: ROLLBACK
+[0m05:13:38.685040 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: Close
+[0m05:13:38.690695 [debug] [MainThread]: Using postgres connection "master"
+[0m05:13:38.691000 [debug] [MainThread]: On master: BEGIN
+[0m05:13:38.691205 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:13:38.695791 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m05:13:38.696033 [debug] [MainThread]: Using postgres connection "master"
+[0m05:13:38.696168 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m05:13:38.701817 [debug] [MainThread]: SQL status: SELECT 0 in 0.01 seconds
+[0m05:13:38.702940 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '09a403b8-89fc-4223-8361-7f801f679667', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd57443fa0>]}
+[0m05:13:38.703226 [debug] [MainThread]: On master: ROLLBACK
+[0m05:13:38.703492 [debug] [MainThread]: Using postgres connection "master"
+[0m05:13:38.703620 [debug] [MainThread]: On master: BEGIN
+[0m05:13:38.703868 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m05:13:38.703996 [debug] [MainThread]: On master: COMMIT
+[0m05:13:38.704110 [debug] [MainThread]: Using postgres connection "master"
+[0m05:13:38.704218 [debug] [MainThread]: On master: COMMIT
+[0m05:13:38.704387 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m05:13:38.704538 [debug] [MainThread]: On master: Close
+[0m05:13:38.704917 [info ] [MainThread]: Concurrency: 3 threads (target='dev')
+[0m05:13:38.705175 [info ] [MainThread]: 
+[0m05:13:38.708071 [debug] [Thread-1  ]: Began running node model.airbyte.tbltransaction
+[0m05:13:38.708403 [info ] [Thread-1  ]: 1 of 1 START view model dbo_dwh.tbltransaction ................................. [RUN]
+[0m05:13:38.708922 [debug] [Thread-1  ]: Acquiring new postgres connection "model.airbyte.tbltransaction"
+[0m05:13:38.709131 [debug] [Thread-1  ]: Began compiling node model.airbyte.tbltransaction
+[0m05:13:38.709273 [debug] [Thread-1  ]: Compiling model.airbyte.tbltransaction
+[0m05:13:38.710745 [debug] [Thread-1  ]: Writing injected SQL for node "model.airbyte.tbltransaction"
+[0m05:13:38.711112 [debug] [Thread-1  ]: finished collecting timing info
+[0m05:13:38.711281 [debug] [Thread-1  ]: Began executing node model.airbyte.tbltransaction
+[0m05:13:38.747680 [debug] [Thread-1  ]: Writing runtime SQL for node "model.airbyte.tbltransaction"
+[0m05:13:38.748061 [debug] [Thread-1  ]: Using postgres connection "model.airbyte.tbltransaction"
+[0m05:13:38.748213 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: BEGIN
+[0m05:13:38.748339 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m05:13:38.753103 [debug] [Thread-1  ]: SQL status: BEGIN in 0.0 seconds
+[0m05:13:38.753352 [debug] [Thread-1  ]: Using postgres connection "model.airbyte.tbltransaction"
+[0m05:13:38.753528 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "node_id": "model.airbyte.tbltransaction"} */
+
+  create view "test_sql_server"."dbo_dwh"."tbltransaction__dbt_tmp" as (
+    SELECT cast(ID as int) as ID,
+	cast(PostDate as datetime) as PostDate,
+	cast(CloseFlag as int) as CloseFlag,
+	cast(ReceivedDate as datetime) as ReceivedDate,
+	cast(DataType as int) as DataType,
+	cast(ProcessingStatus as int) as ProcessingStatus,
+	cast(BillingIteration as int) as BillingIteration,
+	cast(AccountID as int) AccountID,
+	cast(ClientID as int) ClientID,
+	cast(MasterClientID as int) MasterClientID,
+	cast(FinancialClassID as int) FinancialClassID,
+	cast(CompanyID as int) CompanyID,
+	cast(PerformingLabID as int) PerformingLabID,
+	cast(PatientClassID as int) PatientClassID,
+	cast(PlaceofServiceID as int) PlaceofServiceID,
+	cast(ProviderID as int) ProviderID,
+	cast(ServiceDate as datetime) ServiceDate,
+	cast(ServiceTime as datetime) ServiceTime,
+	cast(RenderingProviderID as int) RenderingProviderID,
+	cast(TransactionType as int) TransactionType,
+	cast(Quantity as int) Quantity,
+	cast(ProcedureID as int) ProcedureID,
+	cast(DepartmentID as int) DepartmentID,
+	cast(OverrideProcedureDescription as varchar(50)) OverrideProcedureDescription,
+	cast(ComponentType as int) ComponentType,
+	cast(StatFlag as int) StatFlag,
+	cast(Subidentifier as varchar(2)) Subidentifier,
+	cast(CPT as varchar(5)) CPT,
+	cast(Modifier1 as varchar(2)) Modifier1,
+	cast(Modifier2 as varchar(2)) Modifier2,
+	cast(Modifier3 as varchar(2)) Modifier3,
+	cast(Modifier4 as varchar(2)) Modifier4,
+	cast(CPTQuantity as int) CPTQuantity,
+	cast(Units as decimal(4,1)) Units,
+	cast(NationalDrugCode as int) NationalDrugCode,
+	cast(SingleQuantityPrice as NUMERIC) SingleQuantityPrice,
+	cast(OriginalAmount as NUMERIC) OriginalAmount,
+	cast(CurrentBalance as NUMERIC) CurrentBalance,
+	cast(ClientCapitatedContract as int) ClientCapitatedContract,
+	cast(UsualCharge as numeric) UsualCharge,
+	cast(OriginationFlag as int) OriginationFlag,
+	cast(LabTestIdentifier as varchar(20)) LabTestIdentifier,
+	cast(BillClientFlag as int) BillClientFlag,
+	cast(CurrentResponsibilityFlag as int) CurrentResponsibilityFlag,
+	cast(BillAccountReason as int) BillAccountReason,
+	cast(BillGuarantorDate as datetime) BillGuarantorDate,
+	cast(GuarantorCareFacilityID as int) GuarantorCareFacilityID,
+	cast(BillClientReason as int) BillClientReason,
+	cast(ABNFlag as int) ABNFlag,
+	cast(InvoiceStatus as int) InvoiceStatus,
+	cast(InvoiceTo as int) InvoiceTo,
+	cast(InvoiceType as int) InvoiceType,
+	cast(StatementStatus as int) StatementStatus,
+	cast(FirstStatementDate as datetime) FirstStatementDate,
+	cast(CopayStatementStatus as varchar(50)) CopayStatementStatus,
+	cast(ClaimStatus as int) ClaimStatus,
+	cast(PayerID1 as int) PayerID1,
+	cast(Payer1ClaimID as int) Payer1ClaimID,
+	cast(PayerID2 as int) PayerID2,
+	cast(Payer2ClaimID as int) Payer2ClaimID,
+	cast(PayerID3 as int) PayerID3,
+	cast(Payer3ClaimID as int) Payer3ClaimID,
+	cast(NotificationStatus as int) NotificationStatus,
+	cast(SubmissionReadyDate as datetime) SubmissionReadyDate,
+	cast(ClaimAmendmentFlag as int) ClaimAmendmentFlag,
+	cast(ClaimDelayReasonID as int) ClaimDelayReasonID,
+	cast(CollectionFlag as int) CollectionFlag,
+	cast(InstanceID as int) InstanceID,
+	cast(AssignedToID as int) NUAssignedToIDLL,
+	cast(NursingHomeBedType as int) NursingHomeBedType,
+	cast(HomeboundIndicator as int) HomeboundIndicator,
+	cast(StatisticStatus as int) StatisticStatus,
+	cast(CreditApplied as int) CreditApplied,
+	cast(PurgeFlag as int) PurgeFlag,
+	cast(PurgeDate as datetime) PurgeDate,
+	cast(ChangedDT as datetime) ChangedDT,
+	cast(ChangedByID as int) ChangedByID,
+	cast(Locked as int) Locked,
+	cast(LockedByID as int) LockedByID,
+	cast(BadDebtFlag as int) BadDebtFlag,
+	cast(HostBillToAccountNumber as varchar(20)) HostBillToAccountNumber,
+	cast(PQRI as int) PQRI,
+	cast(ClientContractID as int) ClientContractID,
+	cast(ClientContractType as int) ClientContractType,
+	cast(CollectionState as varchar(2)) CollectionState,
+	cast(CollectedAt as int) CollectedAt,
+	cast(PurchasedService as int) PurchasedService,
+	cast(TravelFlag as int) TravelFlag,
+	cast(PairedTravelTransactionID as int) PairedTravelTransactionID,
+	cast(ParentTransactionID as int) ParentTransactionID,
+	cast(ParentProcedureID as int) ParentProcedureID,
+	cast(ExpectedReimbursement as numeric) ExpectedReimbursement,
+	cast(FirstNotificationDate as datetime) FirstNotificationDate,
+	cast(PSCID as int) PSCID,
+	cast(ContractProjectCode as varchar(50)) ContractProjectCode,
+	cast(AnalyteQuantity as int) AnalyteQuantity,
+	cast(TrxField1ID as int) TrxField1ID,
+	cast(TrxField2 as varchar(50)) TrxField2,
+	cast(ProviderSignatureValidation as int) ProviderSignatureValidation,
+	cast(TestCompletionFlag as int) TestCompletionFlag,
+	cast(OrderIdentifier as varchar(20)) OrderIdentifier,
+	cast(ARBalance as numeric) ARBalance,
+	cast(ARStatus as int) ARStatus,
+	cast(RetainDistinctServiceModifier as int) RetainDistinctServiceModifier,
+	cast(OMPhlebotomistID as int) OMPhlebotomistID,
+	cast(StatementHoldExpiration as datetime) StatementHoldExpiration,
+	cast(Sub1InstanceID as int) Sub1InstanceID,
+	cast(Sub2InstanceID as int) Sub2InstanceID,
+	cast(ARClosedDate as datetime) ARClosedDate,
+	cast(OriginatingDate as datetime) OriginatingDate,
+	cast(DivisionID as int) DivisionID,
+	cast(TransactionNotes as int) TransactionNotes,
+	cast(LatestNoteDate as datetime) LatestNoteDate,
+	cast(Transition as int) Transition,
+	cast(PrimaryAllowedAmount as numeric) PrimaryAllowedAmount,
+	cast(TransitionClaimNumber as varchar(38)) TransitionClaimNumber,
+	cast(TrxField8 as date) TrxField8,
+	cast(FirstBillDate as date) FirstBillDate,
+	cast(Hospice as int) Hospice,
+	cast(TrxField3 as date) TrxField3,
+	cast(TrxField4 as time) TrxField4,
+	cast(TrxField5 as varchar(100)) TrxField5,
+	cast(TrxField6 as varchar(50)) TrxField6,
+	cast(TrxField7 as varchar(20)) TrxField7,
+	cast(ExpectedNet as numeric) ExpectedNet,
+	cast(CreatedDate as datetime) CreatedDate,
+	cast(OMClientClassification1ID as int) OMClientClassification1ID,
+	cast(OMClientClassification2ID as int) OMClientClassification2ID,
+	cast(OMClientClassification3ID as int) OMClientClassification3ID,
+	cast(OMClientRepSalesUserID as int) OMClientRepSalesUserID,
+	cast(OMClientAcquisitionID as int) OMClientAcquisitionID,
+	cast(NormalizedCPT as varchar(25)) NormalizedCPT,
+	cast(ProcedureCostID as int) ProcedureCostID,
+	cast(RequisitionID as int) RequisitionID,
+	cast(ReqUpdateFlag as int) ReqUpdateFlag,
+	cast(TotalQuantity as int) TotalQuantity,
+	cast(TotalChargeAmount as numeric) TotalChargeAmount,
+	cast(TotalPaymentAmount as numeric) TotalPaymentAmount,
+	cast(ChargeSubtotal as numeric) ChargeSubtotal,
+	cast(CreditSubtotal as numeric) CreditSubtotal,
+	cast(PayerPaymentSubtotal as numeric) PayerPaymentSubtotal,
+	cast(PatientPaymentSubtotal as numeric) PatientPaymentSubtotal,
+	cast(ContractualAdjustmentSubtotal as numeric) ContractualAdjustmentSubtotal,
+	cast(OtherAdjustmentSubtotal as numeric) OtherAdjustmentSubtotal,
+	cast(RefundSubtotal as numeric) RefundSubtotal,
+	cast(OMClientTransportationRuleID as int) OMClientTransportationRuleID,
+	cast(InstallmentAgreementFlag as int) InstallmentAgreementFlag,
+	cast(CurrentBISInstallmentID as int) CurrentBISInstallmentID,
+	cast(LatestPrimaryAccountPayerID as int) LatestPrimaryAccountPayerID,
+	cast(LatestPrimaryPayerID as int) LatestPrimaryPayerID,
+	cast(DiagnosisList as varchar) DiagnosisList,
+	cast(LatestPrimaryTransactionPayerID as int) LatestPrimaryTransactionPayerID,
+	cast(Reassigned as int) Reassigned,
+	cast(CreditDate as date) CreditDate
+FROM dbo.tbltransaction
+  );
+[0m05:13:38.754051 [debug] [Thread-1  ]: Postgres adapter: Postgres error: syntax error at or near "Locked"
+LINE 81:  cast(Locked as int) Locked,
+                              ^
+
+[0m05:13:38.754237 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: ROLLBACK
+[0m05:13:38.754609 [debug] [Thread-1  ]: finished collecting timing info
+[0m05:13:38.754802 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: Close
+[0m05:13:38.755258 [debug] [Thread-1  ]: Database Error in model tbltransaction (models/tbltransaction.sql)
+  syntax error at or near "Locked"
+  LINE 81:  cast(Locked as int) Locked,
+                                ^
+  compiled SQL at target/run/airbyte/models/tbltransaction.sql
+[0m05:13:38.755608 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '09a403b8-89fc-4223-8361-7f801f679667', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd57393940>]}
+[0m05:13:38.755982 [error] [Thread-1  ]: 1 of 1 ERROR creating view model dbo_dwh.tbltransaction ........................ [[31mERROR[0m in 0.05s]
+[0m05:13:38.756797 [debug] [Thread-1  ]: Finished running node model.airbyte.tbltransaction
+[0m05:13:38.757770 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m05:13:38.757956 [debug] [MainThread]: Using postgres connection "master"
+[0m05:13:38.758081 [debug] [MainThread]: On master: BEGIN
+[0m05:13:38.758190 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m05:13:38.762419 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m05:13:38.762696 [debug] [MainThread]: On master: COMMIT
+[0m05:13:38.762837 [debug] [MainThread]: Using postgres connection "master"
+[0m05:13:38.762955 [debug] [MainThread]: On master: COMMIT
+[0m05:13:38.763157 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m05:13:38.763299 [debug] [MainThread]: On master: Close
+[0m05:13:38.763707 [info ] [MainThread]: 
+[0m05:13:38.763972 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.11 seconds (0.11s).
+[0m05:13:38.764286 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m05:13:38.764470 [debug] [MainThread]: Connection 'model.airbyte.tbltransaction' was properly closed.
+[0m05:13:38.770362 [info ] [MainThread]: 
+[0m05:13:38.770667 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m05:13:38.771072 [info ] [MainThread]: 
+[0m05:13:38.771369 [error] [MainThread]: [33mDatabase Error in model tbltransaction (models/tbltransaction.sql)[0m
+[0m05:13:38.771686 [error] [MainThread]:   syntax error at or near "Locked"
+[0m05:13:38.771966 [error] [MainThread]:   LINE 81:  cast(Locked as int) Locked,
+[0m05:13:38.772226 [error] [MainThread]:                                 ^
+[0m05:13:38.772496 [error] [MainThread]:   compiled SQL at target/run/airbyte/models/tbltransaction.sql
+[0m05:13:38.772771 [info ] [MainThread]: 
+[0m05:13:38.773044 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m05:13:38.773410 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd55cb2ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd55cb2f70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd55cb2d30>]}
+
+
+============================== 2023-01-05 05:14:32.901201 | 832592e3-3dfa-4868-8460-f4bda95e76b9 ==============================
+[0m05:14:32.901261 [info ] [MainThread]: Running with dbt=1.2.0
+[0m05:14:32.901707 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/user/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'select': ['tbltransaction'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m05:14:32.901864 [debug] [MainThread]: Tracking: tracking
+[0m05:14:32.910110 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f730cea4ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f730cea4fa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f730cea4fd0>]}
+[0m05:14:32.983874 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m05:14:32.984579 [debug] [MainThread]: Partial parsing: updated file: airbyte://models/tbltransaction.sql
+[0m05:14:32.997544 [debug] [MainThread]: 1699: static parser successfully parsed tbltransaction.sql
+[0m05:14:33.012462 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.airbyte.example
+
+[0m05:14:33.020031 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '832592e3-3dfa-4868-8460-f4bda95e76b9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f730cded760>]}
+[0m05:14:33.027839 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '832592e3-3dfa-4868-8460-f4bda95e76b9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f730f2c75b0>]}
+[0m05:14:33.028158 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m05:14:33.028414 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '832592e3-3dfa-4868-8460-f4bda95e76b9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f730f2c7460>]}
+[0m05:14:33.029372 [info ] [MainThread]: 
+[0m05:14:33.029885 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m05:14:33.030602 [debug] [ThreadPool]: Acquiring new postgres connection "list_test_sql_server"
+[0m05:14:33.042100 [debug] [ThreadPool]: Using postgres connection "list_test_sql_server"
+[0m05:14:33.042303 [debug] [ThreadPool]: On list_test_sql_server: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "connection_name": "list_test_sql_server"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m05:14:33.042431 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:14:33.049227 [debug] [ThreadPool]: SQL status: SELECT 8 in 0.01 seconds
+[0m05:14:33.050371 [debug] [ThreadPool]: On list_test_sql_server: Close
+[0m05:14:33.051382 [debug] [ThreadPool]: Acquiring new postgres connection "list_test_sql_server_dbo_dwh"
+[0m05:14:33.058573 [debug] [ThreadPool]: Using postgres connection "list_test_sql_server_dbo_dwh"
+[0m05:14:33.058826 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: BEGIN
+[0m05:14:33.058966 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m05:14:33.063383 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m05:14:33.063616 [debug] [ThreadPool]: Using postgres connection "list_test_sql_server_dbo_dwh"
+[0m05:14:33.063789 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "connection_name": "list_test_sql_server_dbo_dwh"} */
+select
+      'test_sql_server' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'dbo_dwh'
+    union all
+    select
+      'test_sql_server' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'dbo_dwh'
+  
+[0m05:14:33.065659 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+[0m05:14:33.066936 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: ROLLBACK
+[0m05:14:33.067255 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: Close
+[0m05:14:33.071566 [debug] [MainThread]: Using postgres connection "master"
+[0m05:14:33.071757 [debug] [MainThread]: On master: BEGIN
+[0m05:14:33.071889 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:14:33.077093 [debug] [MainThread]: SQL status: BEGIN in 0.01 seconds
+[0m05:14:33.077373 [debug] [MainThread]: Using postgres connection "master"
+[0m05:14:33.077537 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m05:14:33.083547 [debug] [MainThread]: SQL status: SELECT 0 in 0.01 seconds
+[0m05:14:33.084735 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '832592e3-3dfa-4868-8460-f4bda95e76b9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f730cea3bb0>]}
+[0m05:14:33.085095 [debug] [MainThread]: On master: ROLLBACK
+[0m05:14:33.085442 [debug] [MainThread]: Using postgres connection "master"
+[0m05:14:33.085591 [debug] [MainThread]: On master: BEGIN
+[0m05:14:33.085853 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m05:14:33.085994 [debug] [MainThread]: On master: COMMIT
+[0m05:14:33.086122 [debug] [MainThread]: Using postgres connection "master"
+[0m05:14:33.086244 [debug] [MainThread]: On master: COMMIT
+[0m05:14:33.086448 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m05:14:33.086602 [debug] [MainThread]: On master: Close
+[0m05:14:33.087015 [info ] [MainThread]: Concurrency: 3 threads (target='dev')
+[0m05:14:33.087304 [info ] [MainThread]: 
+[0m05:14:33.090526 [debug] [Thread-1  ]: Began running node model.airbyte.tbltransaction
+[0m05:14:33.091500 [info ] [Thread-1  ]: 1 of 1 START view model dbo_dwh.tbltransaction ................................. [RUN]
+[0m05:14:33.092230 [debug] [Thread-1  ]: Acquiring new postgres connection "model.airbyte.tbltransaction"
+[0m05:14:33.092557 [debug] [Thread-1  ]: Began compiling node model.airbyte.tbltransaction
+[0m05:14:33.092828 [debug] [Thread-1  ]: Compiling model.airbyte.tbltransaction
+[0m05:14:33.095059 [debug] [Thread-1  ]: Writing injected SQL for node "model.airbyte.tbltransaction"
+[0m05:14:33.095462 [debug] [Thread-1  ]: finished collecting timing info
+[0m05:14:33.095642 [debug] [Thread-1  ]: Began executing node model.airbyte.tbltransaction
+[0m05:14:33.132160 [debug] [Thread-1  ]: Writing runtime SQL for node "model.airbyte.tbltransaction"
+[0m05:14:33.132592 [debug] [Thread-1  ]: Using postgres connection "model.airbyte.tbltransaction"
+[0m05:14:33.132739 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: BEGIN
+[0m05:14:33.132857 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m05:14:33.138649 [debug] [Thread-1  ]: SQL status: BEGIN in 0.01 seconds
+[0m05:14:33.138858 [debug] [Thread-1  ]: Using postgres connection "model.airbyte.tbltransaction"
+[0m05:14:33.138988 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "node_id": "model.airbyte.tbltransaction"} */
+
+  create view "test_sql_server"."dbo_dwh"."tbltransaction__dbt_tmp" as (
+    SELECT cast(ID as int) as ID,
+	cast(PostDate as datetime) as PostDate,
+	cast(CloseFlag as int) as CloseFlag,
+	cast(ReceivedDate as datetime) as ReceivedDate,
+	cast(DataType as int) as DataType,
+	cast(ProcessingStatus as int) as ProcessingStatus,
+	cast(BillingIteration as int) as BillingIteration,
+	cast(AccountID as int) AccountID,
+	cast(ClientID as int) ClientID,
+	cast(MasterClientID as int) MasterClientID,
+	cast(FinancialClassID as int) FinancialClassID,
+	cast(CompanyID as int) CompanyID,
+	cast(PerformingLabID as int) PerformingLabID,
+	cast(PatientClassID as int) PatientClassID,
+	cast(PlaceofServiceID as int) PlaceofServiceID,
+	cast(ProviderID as int) ProviderID,
+	cast(ServiceDate as datetime) ServiceDate,
+	cast(ServiceTime as datetime) ServiceTime,
+	cast(RenderingProviderID as int) RenderingProviderID,
+	cast(TransactionType as int) TransactionType,
+	cast(Quantity as int) Quantity,
+	cast(ProcedureID as int) ProcedureID,
+	cast(DepartmentID as int) DepartmentID,
+	cast(OverrideProcedureDescription as varchar(50)) OverrideProcedureDescription,
+	cast(ComponentType as int) ComponentType,
+	cast(StatFlag as int) StatFlag,
+	cast(Subidentifier as varchar(2)) Subidentifier,
+	cast(CPT as varchar(5)) CPT,
+	cast(Modifier1 as varchar(2)) Modifier1,
+	cast(Modifier2 as varchar(2)) Modifier2,
+	cast(Modifier3 as varchar(2)) Modifier3,
+	cast(Modifier4 as varchar(2)) Modifier4,
+	cast(CPTQuantity as int) CPTQuantity,
+	cast(Units as decimal(4,1)) Units,
+	cast(NationalDrugCode as int) NationalDrugCode,
+	cast(SingleQuantityPrice as NUMERIC) SingleQuantityPrice,
+	cast(OriginalAmount as NUMERIC) OriginalAmount,
+	cast(CurrentBalance as NUMERIC) CurrentBalance,
+	cast(ClientCapitatedContract as int) ClientCapitatedContract,
+	cast(UsualCharge as numeric) UsualCharge,
+	cast(OriginationFlag as int) OriginationFlag,
+	cast(LabTestIdentifier as varchar(20)) LabTestIdentifier,
+	cast(BillClientFlag as int) BillClientFlag,
+	cast(CurrentResponsibilityFlag as int) CurrentResponsibilityFlag,
+	cast(BillAccountReason as int) BillAccountReason,
+	cast(BillGuarantorDate as datetime) BillGuarantorDate,
+	cast(GuarantorCareFacilityID as int) GuarantorCareFacilityID,
+	cast(BillClientReason as int) BillClientReason,
+	cast(ABNFlag as int) ABNFlag,
+	cast(InvoiceStatus as int) InvoiceStatus,
+	cast(InvoiceTo as int) InvoiceTo,
+	cast(InvoiceType as int) InvoiceType,
+	cast(StatementStatus as int) StatementStatus,
+	cast(FirstStatementDate as datetime) FirstStatementDate,
+	cast(CopayStatementStatus as varchar(50)) CopayStatementStatus,
+	cast(ClaimStatus as int) ClaimStatus,
+	cast(PayerID1 as int) PayerID1,
+	cast(Payer1ClaimID as int) Payer1ClaimID,
+	cast(PayerID2 as int) PayerID2,
+	cast(Payer2ClaimID as int) Payer2ClaimID,
+	cast(PayerID3 as int) PayerID3,
+	cast(Payer3ClaimID as int) Payer3ClaimID,
+	cast(NotificationStatus as int) NotificationStatus,
+	cast(SubmissionReadyDate as datetime) SubmissionReadyDate,
+	cast(ClaimAmendmentFlag as int) ClaimAmendmentFlag,
+	cast(ClaimDelayReasonID as int) ClaimDelayReasonID,
+	cast(CollectionFlag as int) CollectionFlag,
+	cast(InstanceID as int) InstanceID,
+	cast(AssignedToID as int) NUAssignedToIDLL,
+	cast(NursingHomeBedType as int) NursingHomeBedType,
+	cast(HomeboundIndicator as int) HomeboundIndicator,
+	cast(StatisticStatus as int) StatisticStatus,
+	cast(CreditApplied as int) CreditApplied,
+	cast(PurgeFlag as int) PurgeFlag,
+	cast(PurgeDate as datetime) PurgeDate,
+	cast(ChangedDT as datetime) ChangedDT,
+	cast(ChangedByID as int) ChangedByID,
+	cast("Locked" as int) "Locked",
+	cast(LockedByID as int) LockedByID,
+	cast(BadDebtFlag as int) BadDebtFlag,
+	cast(HostBillToAccountNumber as varchar(20)) HostBillToAccountNumber,
+	cast(PQRI as int) PQRI,
+	cast(ClientContractID as int) ClientContractID,
+	cast(ClientContractType as int) ClientContractType,
+	cast(CollectionState as varchar(2)) CollectionState,
+	cast(CollectedAt as int) CollectedAt,
+	cast(PurchasedService as int) PurchasedService,
+	cast(TravelFlag as int) TravelFlag,
+	cast(PairedTravelTransactionID as int) PairedTravelTransactionID,
+	cast(ParentTransactionID as int) ParentTransactionID,
+	cast(ParentProcedureID as int) ParentProcedureID,
+	cast(ExpectedReimbursement as numeric) ExpectedReimbursement,
+	cast(FirstNotificationDate as datetime) FirstNotificationDate,
+	cast(PSCID as int) PSCID,
+	cast(ContractProjectCode as varchar(50)) ContractProjectCode,
+	cast(AnalyteQuantity as int) AnalyteQuantity,
+	cast(TrxField1ID as int) TrxField1ID,
+	cast(TrxField2 as varchar(50)) TrxField2,
+	cast(ProviderSignatureValidation as int) ProviderSignatureValidation,
+	cast(TestCompletionFlag as int) TestCompletionFlag,
+	cast(OrderIdentifier as varchar(20)) OrderIdentifier,
+	cast(ARBalance as numeric) ARBalance,
+	cast(ARStatus as int) ARStatus,
+	cast(RetainDistinctServiceModifier as int) RetainDistinctServiceModifier,
+	cast(OMPhlebotomistID as int) OMPhlebotomistID,
+	cast(StatementHoldExpiration as datetime) StatementHoldExpiration,
+	cast(Sub1InstanceID as int) Sub1InstanceID,
+	cast(Sub2InstanceID as int) Sub2InstanceID,
+	cast(ARClosedDate as datetime) ARClosedDate,
+	cast(OriginatingDate as datetime) OriginatingDate,
+	cast(DivisionID as int) DivisionID,
+	cast(TransactionNotes as int) TransactionNotes,
+	cast(LatestNoteDate as datetime) LatestNoteDate,
+	cast(Transition as int) Transition,
+	cast(PrimaryAllowedAmount as numeric) PrimaryAllowedAmount,
+	cast(TransitionClaimNumber as varchar(38)) TransitionClaimNumber,
+	cast(TrxField8 as date) TrxField8,
+	cast(FirstBillDate as date) FirstBillDate,
+	cast(Hospice as int) Hospice,
+	cast(TrxField3 as date) TrxField3,
+	cast(TrxField4 as time) TrxField4,
+	cast(TrxField5 as varchar(100)) TrxField5,
+	cast(TrxField6 as varchar(50)) TrxField6,
+	cast(TrxField7 as varchar(20)) TrxField7,
+	cast(ExpectedNet as numeric) ExpectedNet,
+	cast(CreatedDate as datetime) CreatedDate,
+	cast(OMClientClassification1ID as int) OMClientClassification1ID,
+	cast(OMClientClassification2ID as int) OMClientClassification2ID,
+	cast(OMClientClassification3ID as int) OMClientClassification3ID,
+	cast(OMClientRepSalesUserID as int) OMClientRepSalesUserID,
+	cast(OMClientAcquisitionID as int) OMClientAcquisitionID,
+	cast(NormalizedCPT as varchar(25)) NormalizedCPT,
+	cast(ProcedureCostID as int) ProcedureCostID,
+	cast(RequisitionID as int) RequisitionID,
+	cast(ReqUpdateFlag as int) ReqUpdateFlag,
+	cast(TotalQuantity as int) TotalQuantity,
+	cast(TotalChargeAmount as numeric) TotalChargeAmount,
+	cast(TotalPaymentAmount as numeric) TotalPaymentAmount,
+	cast(ChargeSubtotal as numeric) ChargeSubtotal,
+	cast(CreditSubtotal as numeric) CreditSubtotal,
+	cast(PayerPaymentSubtotal as numeric) PayerPaymentSubtotal,
+	cast(PatientPaymentSubtotal as numeric) PatientPaymentSubtotal,
+	cast(ContractualAdjustmentSubtotal as numeric) ContractualAdjustmentSubtotal,
+	cast(OtherAdjustmentSubtotal as numeric) OtherAdjustmentSubtotal,
+	cast(RefundSubtotal as numeric) RefundSubtotal,
+	cast(OMClientTransportationRuleID as int) OMClientTransportationRuleID,
+	cast(InstallmentAgreementFlag as int) InstallmentAgreementFlag,
+	cast(CurrentBISInstallmentID as int) CurrentBISInstallmentID,
+	cast(LatestPrimaryAccountPayerID as int) LatestPrimaryAccountPayerID,
+	cast(LatestPrimaryPayerID as int) LatestPrimaryPayerID,
+	cast(DiagnosisList as varchar) DiagnosisList,
+	cast(LatestPrimaryTransactionPayerID as int) LatestPrimaryTransactionPayerID,
+	cast(Reassigned as int) Reassigned,
+	cast(CreditDate as date) CreditDate
+FROM dbo.tbltransaction
+  );
+[0m05:14:33.139696 [debug] [Thread-1  ]: Postgres adapter: Postgres error: column "id" does not exist
+LINE 4:     SELECT cast(ID as int) as ID,
+                        ^
+
+[0m05:14:33.139856 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: ROLLBACK
+[0m05:14:33.140185 [debug] [Thread-1  ]: finished collecting timing info
+[0m05:14:33.140329 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: Close
+[0m05:14:33.140725 [debug] [Thread-1  ]: Database Error in model tbltransaction (models/tbltransaction.sql)
+  column "id" does not exist
+  LINE 4:     SELECT cast(ID as int) as ID,
+                          ^
+  compiled SQL at target/run/airbyte/models/tbltransaction.sql
+[0m05:14:33.141009 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '832592e3-3dfa-4868-8460-f4bda95e76b9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f730c0ef910>]}
+[0m05:14:33.141317 [error] [Thread-1  ]: 1 of 1 ERROR creating view model dbo_dwh.tbltransaction ........................ [[31mERROR[0m in 0.05s]
+[0m05:14:33.141736 [debug] [Thread-1  ]: Finished running node model.airbyte.tbltransaction
+[0m05:14:33.142942 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m05:14:33.143234 [debug] [MainThread]: Using postgres connection "master"
+[0m05:14:33.143461 [debug] [MainThread]: On master: BEGIN
+[0m05:14:33.143602 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m05:14:33.149013 [debug] [MainThread]: SQL status: BEGIN in 0.01 seconds
+[0m05:14:33.149267 [debug] [MainThread]: On master: COMMIT
+[0m05:14:33.149458 [debug] [MainThread]: Using postgres connection "master"
+[0m05:14:33.149627 [debug] [MainThread]: On master: COMMIT
+[0m05:14:33.149884 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m05:14:33.150072 [debug] [MainThread]: On master: Close
+[0m05:14:33.150583 [info ] [MainThread]: 
+[0m05:14:33.150928 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.12 seconds (0.12s).
+[0m05:14:33.151239 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m05:14:33.151401 [debug] [MainThread]: Connection 'model.airbyte.tbltransaction' was properly closed.
+[0m05:14:33.157235 [info ] [MainThread]: 
+[0m05:14:33.157543 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m05:14:33.157818 [info ] [MainThread]: 
+[0m05:14:33.158055 [error] [MainThread]: [33mDatabase Error in model tbltransaction (models/tbltransaction.sql)[0m
+[0m05:14:33.158284 [error] [MainThread]:   column "id" does not exist
+[0m05:14:33.158589 [error] [MainThread]:   LINE 4:     SELECT cast(ID as int) as ID,
+[0m05:14:33.158882 [error] [MainThread]:                           ^
+[0m05:14:33.159174 [error] [MainThread]:   compiled SQL at target/run/airbyte/models/tbltransaction.sql
+[0m05:14:33.159471 [info ] [MainThread]: 
+[0m05:14:33.159761 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m05:14:33.160174 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f730f6d11c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f730ce52040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f730c1a2340>]}
+
+
+============================== 2023-01-05 05:18:26.446985 | 71a7757f-bb40-47d1-8e2c-83446dc331d4 ==============================
+[0m05:18:26.447010 [info ] [MainThread]: Running with dbt=1.2.0
+[0m05:18:26.447533 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/user/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'select': ['tbltransaction'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m05:18:26.447684 [debug] [MainThread]: Tracking: tracking
+[0m05:18:26.458187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cece1fd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cece1fdc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cece1fdf0>]}
+[0m05:18:26.534165 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m05:18:26.534682 [debug] [MainThread]: Partial parsing: updated file: airbyte://models/tbltransaction.sql
+[0m05:18:26.547788 [debug] [MainThread]: 1699: static parser successfully parsed tbltransaction.sql
+[0m05:18:26.565115 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.airbyte.example
+
+[0m05:18:26.570129 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '71a7757f-bb40-47d1-8e2c-83446dc331d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8ceccdf4c0>]}
+[0m05:18:26.575099 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '71a7757f-bb40-47d1-8e2c-83446dc331d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cef1b8520>]}
+[0m05:18:26.575410 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m05:18:26.575666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '71a7757f-bb40-47d1-8e2c-83446dc331d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cef1b8490>]}
+[0m05:18:26.576671 [info ] [MainThread]: 
+[0m05:18:26.577176 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m05:18:26.577841 [debug] [ThreadPool]: Acquiring new postgres connection "list_test_sql_server"
+[0m05:18:26.587926 [debug] [ThreadPool]: Using postgres connection "list_test_sql_server"
+[0m05:18:26.588184 [debug] [ThreadPool]: On list_test_sql_server: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "connection_name": "list_test_sql_server"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m05:18:26.588377 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:18:26.595032 [debug] [ThreadPool]: SQL status: SELECT 8 in 0.01 seconds
+[0m05:18:26.596256 [debug] [ThreadPool]: On list_test_sql_server: Close
+[0m05:18:26.597300 [debug] [ThreadPool]: Acquiring new postgres connection "list_test_sql_server_dbo_dwh"
+[0m05:18:26.602872 [debug] [ThreadPool]: Using postgres connection "list_test_sql_server_dbo_dwh"
+[0m05:18:26.603061 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: BEGIN
+[0m05:18:26.603188 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m05:18:26.608110 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m05:18:26.608319 [debug] [ThreadPool]: Using postgres connection "list_test_sql_server_dbo_dwh"
+[0m05:18:26.608491 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "connection_name": "list_test_sql_server_dbo_dwh"} */
+select
+      'test_sql_server' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'dbo_dwh'
+    union all
+    select
+      'test_sql_server' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'dbo_dwh'
+  
+[0m05:18:26.610328 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+[0m05:18:26.611320 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: ROLLBACK
+[0m05:18:26.611583 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: Close
+[0m05:18:26.615359 [debug] [MainThread]: Using postgres connection "master"
+[0m05:18:26.615570 [debug] [MainThread]: On master: BEGIN
+[0m05:18:26.615706 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:18:26.620238 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m05:18:26.620505 [debug] [MainThread]: Using postgres connection "master"
+[0m05:18:26.620668 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m05:18:26.626317 [debug] [MainThread]: SQL status: SELECT 0 in 0.01 seconds
+[0m05:18:26.627867 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '71a7757f-bb40-47d1-8e2c-83446dc331d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cecd9e0d0>]}
+[0m05:18:26.628256 [debug] [MainThread]: On master: ROLLBACK
+[0m05:18:26.628607 [debug] [MainThread]: Using postgres connection "master"
+[0m05:18:26.628817 [debug] [MainThread]: On master: BEGIN
+[0m05:18:26.629164 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m05:18:26.629365 [debug] [MainThread]: On master: COMMIT
+[0m05:18:26.629555 [debug] [MainThread]: Using postgres connection "master"
+[0m05:18:26.629740 [debug] [MainThread]: On master: COMMIT
+[0m05:18:26.629999 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m05:18:26.630254 [debug] [MainThread]: On master: Close
+[0m05:18:26.630814 [info ] [MainThread]: Concurrency: 3 threads (target='dev')
+[0m05:18:26.631239 [info ] [MainThread]: 
+[0m05:18:26.635562 [debug] [Thread-1  ]: Began running node model.airbyte.tbltransaction
+[0m05:18:26.636119 [info ] [Thread-1  ]: 1 of 1 START view model dbo_dwh.tbltransaction ................................. [RUN]
+[0m05:18:26.636804 [debug] [Thread-1  ]: Acquiring new postgres connection "model.airbyte.tbltransaction"
+[0m05:18:26.637030 [debug] [Thread-1  ]: Began compiling node model.airbyte.tbltransaction
+[0m05:18:26.637226 [debug] [Thread-1  ]: Compiling model.airbyte.tbltransaction
+[0m05:18:26.639024 [debug] [Thread-1  ]: Writing injected SQL for node "model.airbyte.tbltransaction"
+[0m05:18:26.639486 [debug] [Thread-1  ]: finished collecting timing info
+[0m05:18:26.639721 [debug] [Thread-1  ]: Began executing node model.airbyte.tbltransaction
+[0m05:18:26.683214 [debug] [Thread-1  ]: Writing runtime SQL for node "model.airbyte.tbltransaction"
+[0m05:18:26.684321 [debug] [Thread-1  ]: Using postgres connection "model.airbyte.tbltransaction"
+[0m05:18:26.684782 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: BEGIN
+[0m05:18:26.685046 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m05:18:26.692835 [debug] [Thread-1  ]: SQL status: BEGIN in 0.01 seconds
+[0m05:18:26.693164 [debug] [Thread-1  ]: Using postgres connection "model.airbyte.tbltransaction"
+[0m05:18:26.693386 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "node_id": "model.airbyte.tbltransaction"} */
+
+  create view "test_sql_server"."dbo_dwh"."tbltransaction__dbt_tmp" as (
+    SELECT cast("ID" as int) as "ID",
+	cast(PostDate as timestamp) as PostDate,
+	cast(CloseFlag as int) as CloseFlag,
+	cast(ReceivedDate as timestamp) as ReceivedDate,
+	cast(DataType as int) as DataType,
+	cast(ProcessingStatus as int) as ProcessingStatus,
+	cast(BillingIteration as int) as BillingIteration,
+	cast(AccountID as int) AccountID,
+	cast(ClientID as int) ClientID,
+	cast(MasterClientID as int) MasterClientID,
+	cast(FinancialClassID as int) FinancialClassID,
+	cast(CompanyID as int) CompanyID,
+	cast(PerformingLabID as int) PerformingLabID,
+	cast(PatientClassID as int) PatientClassID,
+	cast(PlaceofServiceID as int) PlaceofServiceID,
+	cast(ProviderID as int) ProviderID,
+	cast(ServiceDate as timestamp) ServiceDate,
+	cast(ServiceTime as timestamp) ServiceTime,
+	cast(RenderingProviderID as int) RenderingProviderID,
+	cast(TransactionType as int) TransactionType,
+	cast(Quantity as int) Quantity,
+	cast(ProcedureID as int) ProcedureID,
+	cast(DepartmentID as int) DepartmentID,
+	cast(OverrideProcedureDescription as varchar(50)) OverrideProcedureDescription,
+	cast(ComponentType as int) ComponentType,
+	cast(StatFlag as int) StatFlag,
+	cast(Subidentifier as varchar(2)) Subidentifier,
+	cast(CPT as varchar(5)) CPT,
+	cast(Modifier1 as varchar(2)) Modifier1,
+	cast(Modifier2 as varchar(2)) Modifier2,
+	cast(Modifier3 as varchar(2)) Modifier3,
+	cast(Modifier4 as varchar(2)) Modifier4,
+	cast(CPTQuantity as int) CPTQuantity,
+	cast(Units as decimal(4,1)) Units,
+	cast(NationalDrugCode as int) NationalDrugCode,
+	cast(SingleQuantityPrice as NUMERIC) SingleQuantityPrice,
+	cast(OriginalAmount as NUMERIC) OriginalAmount,
+	cast(CurrentBalance as NUMERIC) CurrentBalance,
+	cast(ClientCapitatedContract as int) ClientCapitatedContract,
+	cast(UsualCharge as numeric) UsualCharge,
+	cast(OriginationFlag as int) OriginationFlag,
+	cast(LabTestIdentifier as varchar(20)) LabTestIdentifier,
+	cast(BillClientFlag as int) BillClientFlag,
+	cast(CurrentResponsibilityFlag as int) CurrentResponsibilityFlag,
+	cast(BillAccountReason as int) BillAccountReason,
+	cast(BillGuarantorDate as timestamp) BillGuarantorDate,
+	cast(GuarantorCareFacilityID as int) GuarantorCareFacilityID,
+	cast(BillClientReason as int) BillClientReason,
+	cast(ABNFlag as int) ABNFlag,
+	cast(InvoiceStatus as int) InvoiceStatus,
+	cast(InvoiceTo as int) InvoiceTo,
+	cast(InvoiceType as int) InvoiceType,
+	cast(StatementStatus as int) StatementStatus,
+	cast(FirstStatementDate as timestamp) FirstStatementDate,
+	cast(CopayStatementStatus as varchar(50)) CopayStatementStatus,
+	cast(ClaimStatus as int) ClaimStatus,
+	cast(PayerID1 as int) PayerID1,
+	cast(Payer1ClaimID as int) Payer1ClaimID,
+	cast(PayerID2 as int) PayerID2,
+	cast(Payer2ClaimID as int) Payer2ClaimID,
+	cast(PayerID3 as int) PayerID3,
+	cast(Payer3ClaimID as int) Payer3ClaimID,
+	cast(NotificationStatus as int) NotificationStatus,
+	cast(SubmissionReadyDate as timestamp) SubmissionReadyDate,
+	cast(ClaimAmendmentFlag as int) ClaimAmendmentFlag,
+	cast(ClaimDelayReasonID as int) ClaimDelayReasonID,
+	cast(CollectionFlag as int) CollectionFlag,
+	cast(InstanceID as int) InstanceID,
+	cast(AssignedToID as int) NUAssignedToIDLL,
+	cast(NursingHomeBedType as int) NursingHomeBedType,
+	cast(HomeboundIndicator as int) HomeboundIndicator,
+	cast(StatisticStatus as int) StatisticStatus,
+	cast(CreditApplied as int) CreditApplied,
+	cast(PurgeFlag as int) PurgeFlag,
+	cast(PurgeDate as timestamp) PurgeDate,
+	cast(ChangedDT as timestamp) ChangedDT,
+	cast(ChangedByID as int) ChangedByID,
+	cast("Locked" as int) "Locked",
+	cast(LockedByID as int) LockedByID,
+	cast(BadDebtFlag as int) BadDebtFlag,
+	cast(HostBillToAccountNumber as varchar(20)) HostBillToAccountNumber,
+	cast(PQRI as int) PQRI,
+	cast(ClientContractID as int) ClientContractID,
+	cast(ClientContractType as int) ClientContractType,
+	cast(CollectionState as varchar(2)) CollectionState,
+	cast(CollectedAt as int) CollectedAt,
+	cast(PurchasedService as int) PurchasedService,
+	cast(TravelFlag as int) TravelFlag,
+	cast(PairedTravelTransactionID as int) PairedTravelTransactionID,
+	cast(ParentTransactionID as int) ParentTransactionID,
+	cast(ParentProcedureID as int) ParentProcedureID,
+	cast(ExpectedReimbursement as numeric) ExpectedReimbursement,
+	cast(FirstNotificationDate as timestamp) FirstNotificationDate,
+	cast(PSCID as int) PSCID,
+	cast(ContractProjectCode as varchar(50)) ContractProjectCode,
+	cast(AnalyteQuantity as int) AnalyteQuantity,
+	cast(TrxField1ID as int) TrxField1ID,
+	cast(TrxField2 as varchar(50)) TrxField2,
+	cast(ProviderSignatureValidation as int) ProviderSignatureValidation,
+	cast(TestCompletionFlag as int) TestCompletionFlag,
+	cast(OrderIdentifier as varchar(20)) OrderIdentifier,
+	cast(ARBalance as numeric) ARBalance,
+	cast(ARStatus as int) ARStatus,
+	cast(RetainDistinctServiceModifier as int) RetainDistinctServiceModifier,
+	cast(OMPhlebotomistID as int) OMPhlebotomistID,
+	cast(StatementHoldExpiration as timestamp) StatementHoldExpiration,
+	cast(Sub1InstanceID as int) Sub1InstanceID,
+	cast(Sub2InstanceID as int) Sub2InstanceID,
+	cast(ARClosedDate as timestamp) ARClosedDate,
+	cast(OriginatingDate as timestamp) OriginatingDate,
+	cast(DivisionID as int) DivisionID,
+	cast(TransactionNotes as int) TransactionNotes,
+	cast(LatestNoteDate as timestamp) LatestNoteDate,
+	cast(Transition as int) Transition,
+	cast(PrimaryAllowedAmount as numeric) PrimaryAllowedAmount,
+	cast(TransitionClaimNumber as varchar(38)) TransitionClaimNumber,
+	cast(TrxField8 as date) TrxField8,
+	cast(FirstBillDate as date) FirstBillDate,
+	cast(Hospice as int) Hospice,
+	cast(TrxField3 as date) TrxField3,
+	cast(TrxField4 as time) TrxField4,
+	cast(TrxField5 as varchar(100)) TrxField5,
+	cast(TrxField6 as varchar(50)) TrxField6,
+	cast(TrxField7 as varchar(20)) TrxField7,
+	cast(ExpectedNet as numeric) ExpectedNet,
+	cast(CreatedDate as timestamp) CreatedDate,
+	cast(OMClientClassification1ID as int) OMClientClassification1ID,
+	cast(OMClientClassification2ID as int) OMClientClassification2ID,
+	cast(OMClientClassification3ID as int) OMClientClassification3ID,
+	cast(OMClientRepSalesUserID as int) OMClientRepSalesUserID,
+	cast(OMClientAcquisitionID as int) OMClientAcquisitionID,
+	cast(NormalizedCPT as varchar(25)) NormalizedCPT,
+	cast(ProcedureCostID as int) ProcedureCostID,
+	cast(RequisitionID as int) RequisitionID,
+	cast(ReqUpdateFlag as int) ReqUpdateFlag,
+	cast(TotalQuantity as int) TotalQuantity,
+	cast(TotalChargeAmount as numeric) TotalChargeAmount,
+	cast(TotalPaymentAmount as numeric) TotalPaymentAmount,
+	cast(ChargeSubtotal as numeric) ChargeSubtotal,
+	cast(CreditSubtotal as numeric) CreditSubtotal,
+	cast(PayerPaymentSubtotal as numeric) PayerPaymentSubtotal,
+	cast(PatientPaymentSubtotal as numeric) PatientPaymentSubtotal,
+	cast(ContractualAdjustmentSubtotal as numeric) ContractualAdjustmentSubtotal,
+	cast(OtherAdjustmentSubtotal as numeric) OtherAdjustmentSubtotal,
+	cast(RefundSubtotal as numeric) RefundSubtotal,
+	cast(OMClientTransportationRuleID as int) OMClientTransportationRuleID,
+	cast(InstallmentAgreementFlag as int) InstallmentAgreementFlag,
+	cast(CurrentBISInstallmentID as int) CurrentBISInstallmentID,
+	cast(LatestPrimaryAccountPayerID as int) LatestPrimaryAccountPayerID,
+	cast(LatestPrimaryPayerID as int) LatestPrimaryPayerID,
+	cast(DiagnosisList as varchar) DiagnosisList,
+	cast(LatestPrimaryTransactionPayerID as int) LatestPrimaryTransactionPayerID,
+	cast(Reassigned as int) Reassigned,
+	cast(CreditDate as date) CreditDate
+FROM dbo.tbltransaction
+  );
+[0m05:18:26.708782 [debug] [Thread-1  ]: SQL status: CREATE VIEW in 0.02 seconds
+[0m05:18:26.719637 [debug] [Thread-1  ]: Using postgres connection "model.airbyte.tbltransaction"
+[0m05:18:26.719828 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "node_id": "model.airbyte.tbltransaction"} */
+alter table "test_sql_server"."dbo_dwh"."tbltransaction__dbt_tmp" rename to "tbltransaction"
+[0m05:18:26.720777 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+[0m05:18:26.741466 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: COMMIT
+[0m05:18:26.741742 [debug] [Thread-1  ]: Using postgres connection "model.airbyte.tbltransaction"
+[0m05:18:26.741917 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: COMMIT
+[0m05:18:26.742751 [debug] [Thread-1  ]: SQL status: COMMIT in 0.0 seconds
+[0m05:18:26.748150 [debug] [Thread-1  ]: Using postgres connection "model.airbyte.tbltransaction"
+[0m05:18:26.748352 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "node_id": "model.airbyte.tbltransaction"} */
+drop view if exists "test_sql_server"."dbo_dwh"."tbltransaction__dbt_backup" cascade
+[0m05:18:26.748817 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.0 seconds
+[0m05:18:26.749866 [debug] [Thread-1  ]: finished collecting timing info
+[0m05:18:26.750056 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: Close
+[0m05:18:26.750590 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '71a7757f-bb40-47d1-8e2c-83446dc331d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cec021d90>]}
+[0m05:18:26.750978 [info ] [Thread-1  ]: 1 of 1 OK created view model dbo_dwh.tbltransaction ............................ [[32mCREATE VIEW[0m in 0.11s]
+[0m05:18:26.751496 [debug] [Thread-1  ]: Finished running node model.airbyte.tbltransaction
+[0m05:18:26.752939 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m05:18:26.753368 [debug] [MainThread]: Using postgres connection "master"
+[0m05:18:26.753600 [debug] [MainThread]: On master: BEGIN
+[0m05:18:26.753796 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m05:18:26.760014 [debug] [MainThread]: SQL status: BEGIN in 0.01 seconds
+[0m05:18:26.760384 [debug] [MainThread]: On master: COMMIT
+[0m05:18:26.760654 [debug] [MainThread]: Using postgres connection "master"
+[0m05:18:26.760873 [debug] [MainThread]: On master: COMMIT
+[0m05:18:26.761210 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m05:18:26.761440 [debug] [MainThread]: On master: Close
+[0m05:18:26.762075 [info ] [MainThread]: 
+[0m05:18:26.762548 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.19 seconds (0.19s).
+[0m05:18:26.762987 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m05:18:26.763238 [debug] [MainThread]: Connection 'model.airbyte.tbltransaction' was properly closed.
+[0m05:18:26.770531 [info ] [MainThread]: 
+[0m05:18:26.770992 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m05:18:26.771425 [info ] [MainThread]: 
+[0m05:18:26.771780 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m05:18:26.772279 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cec01ff10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cd4bcd280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cd4bcd820>]}
+
+
+============================== 2023-01-05 05:20:38.453949 | 3d27e969-c9d1-43c6-913f-720244dd3bcf ==============================
+[0m05:20:38.453975 [info ] [MainThread]: Running with dbt=1.2.0
+[0m05:20:38.454543 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/user/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'select': ['tbltransaction'], 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m05:20:38.454712 [debug] [MainThread]: Tracking: tracking
+[0m05:20:38.463814 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f07e00f6dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f07e00f6e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f07e00f6eb0>]}
+[0m05:20:38.524603 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m05:20:38.525005 [debug] [MainThread]: Partial parsing: updated file: airbyte://models/tbltransaction.sql
+[0m05:20:38.536651 [debug] [MainThread]: 1699: static parser successfully parsed tbltransaction.sql
+[0m05:20:38.553751 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.airbyte.example
+
+[0m05:20:38.558559 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3d27e969-c9d1-43c6-913f-720244dd3bcf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f07e003f640>]}
+[0m05:20:38.564235 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3d27e969-c9d1-43c6-913f-720244dd3bcf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f07e2519490>]}
+[0m05:20:38.564572 [info ] [MainThread]: Found 1 model, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m05:20:38.564843 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3d27e969-c9d1-43c6-913f-720244dd3bcf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f07e2519340>]}
+[0m05:20:38.565755 [info ] [MainThread]: 
+[0m05:20:38.566230 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m05:20:38.566923 [debug] [ThreadPool]: Acquiring new postgres connection "list_test_sql_server"
+[0m05:20:38.577229 [debug] [ThreadPool]: Using postgres connection "list_test_sql_server"
+[0m05:20:38.577506 [debug] [ThreadPool]: On list_test_sql_server: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "connection_name": "list_test_sql_server"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m05:20:38.577643 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:20:38.584662 [debug] [ThreadPool]: SQL status: SELECT 8 in 0.01 seconds
+[0m05:20:38.585822 [debug] [ThreadPool]: On list_test_sql_server: Close
+[0m05:20:38.586810 [debug] [ThreadPool]: Acquiring new postgres connection "list_test_sql_server_dbo_dwh"
+[0m05:20:38.592385 [debug] [ThreadPool]: Using postgres connection "list_test_sql_server_dbo_dwh"
+[0m05:20:38.592600 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: BEGIN
+[0m05:20:38.592726 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m05:20:38.597162 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m05:20:38.597420 [debug] [ThreadPool]: Using postgres connection "list_test_sql_server_dbo_dwh"
+[0m05:20:38.597597 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "connection_name": "list_test_sql_server_dbo_dwh"} */
+select
+      'test_sql_server' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'dbo_dwh'
+    union all
+    select
+      'test_sql_server' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'dbo_dwh'
+  
+[0m05:20:38.599441 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.0 seconds
+[0m05:20:38.600785 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: ROLLBACK
+[0m05:20:38.601038 [debug] [ThreadPool]: On list_test_sql_server_dbo_dwh: Close
+[0m05:20:38.605114 [debug] [MainThread]: Using postgres connection "master"
+[0m05:20:38.605316 [debug] [MainThread]: On master: BEGIN
+[0m05:20:38.605446 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:20:38.611501 [debug] [MainThread]: SQL status: BEGIN in 0.01 seconds
+[0m05:20:38.611758 [debug] [MainThread]: Using postgres connection "master"
+[0m05:20:38.611902 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m05:20:38.620209 [debug] [MainThread]: SQL status: SELECT 1 in 0.01 seconds
+[0m05:20:38.621384 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3d27e969-c9d1-43c6-913f-720244dd3bcf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f07e00a4490>]}
+[0m05:20:38.621700 [debug] [MainThread]: On master: ROLLBACK
+[0m05:20:38.621986 [debug] [MainThread]: Using postgres connection "master"
+[0m05:20:38.622131 [debug] [MainThread]: On master: BEGIN
+[0m05:20:38.622451 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m05:20:38.622595 [debug] [MainThread]: On master: COMMIT
+[0m05:20:38.622733 [debug] [MainThread]: Using postgres connection "master"
+[0m05:20:38.622858 [debug] [MainThread]: On master: COMMIT
+[0m05:20:38.623049 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m05:20:38.623193 [debug] [MainThread]: On master: Close
+[0m05:20:38.623591 [info ] [MainThread]: Concurrency: 3 threads (target='dev')
+[0m05:20:38.623876 [info ] [MainThread]: 
+[0m05:20:38.626710 [debug] [Thread-1  ]: Began running node model.airbyte.tbltransaction
+[0m05:20:38.627104 [info ] [Thread-1  ]: 1 of 1 START table model dbo_dwh.tbltransaction ................................ [RUN]
+[0m05:20:38.627621 [debug] [Thread-1  ]: Acquiring new postgres connection "model.airbyte.tbltransaction"
+[0m05:20:38.627807 [debug] [Thread-1  ]: Began compiling node model.airbyte.tbltransaction
+[0m05:20:38.628002 [debug] [Thread-1  ]: Compiling model.airbyte.tbltransaction
+[0m05:20:38.631277 [debug] [Thread-1  ]: Writing injected SQL for node "model.airbyte.tbltransaction"
+[0m05:20:38.631659 [debug] [Thread-1  ]: finished collecting timing info
+[0m05:20:38.631835 [debug] [Thread-1  ]: Began executing node model.airbyte.tbltransaction
+[0m05:20:38.680516 [debug] [Thread-1  ]: Writing runtime SQL for node "model.airbyte.tbltransaction"
+[0m05:20:38.681191 [debug] [Thread-1  ]: Using postgres connection "model.airbyte.tbltransaction"
+[0m05:20:38.681474 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: BEGIN
+[0m05:20:38.681701 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m05:20:38.689602 [debug] [Thread-1  ]: SQL status: BEGIN in 0.01 seconds
+[0m05:20:38.689967 [debug] [Thread-1  ]: Using postgres connection "model.airbyte.tbltransaction"
+[0m05:20:38.690194 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "node_id": "model.airbyte.tbltransaction"} */
+
+
+  create  table "test_sql_server"."dbo_dwh"."tbltransaction__dbt_tmp"
+  as (
+    
+
+SELECT cast("ID" as int) as "ID",
+	cast(PostDate as timestamp) as PostDate,
+	cast(CloseFlag as int) as CloseFlag,
+	cast(ReceivedDate as timestamp) as ReceivedDate,
+	cast(DataType as int) as DataType,
+	cast(ProcessingStatus as int) as ProcessingStatus,
+	cast(BillingIteration as int) as BillingIteration,
+	cast(AccountID as int) AccountID,
+	cast(ClientID as int) ClientID,
+	cast(MasterClientID as int) MasterClientID,
+	cast(FinancialClassID as int) FinancialClassID,
+	cast(CompanyID as int) CompanyID,
+	cast(PerformingLabID as int) PerformingLabID,
+	cast(PatientClassID as int) PatientClassID,
+	cast(PlaceofServiceID as int) PlaceofServiceID,
+	cast(ProviderID as int) ProviderID,
+	cast(ServiceDate as timestamp) ServiceDate,
+	cast(ServiceTime as timestamp) ServiceTime,
+	cast(RenderingProviderID as int) RenderingProviderID,
+	cast(TransactionType as int) TransactionType,
+	cast(Quantity as int) Quantity,
+	cast(ProcedureID as int) ProcedureID,
+	cast(DepartmentID as int) DepartmentID,
+	cast(OverrideProcedureDescription as varchar(50)) OverrideProcedureDescription,
+	cast(ComponentType as int) ComponentType,
+	cast(StatFlag as int) StatFlag,
+	cast(Subidentifier as varchar(2)) Subidentifier,
+	cast(CPT as varchar(5)) CPT,
+	cast(Modifier1 as varchar(2)) Modifier1,
+	cast(Modifier2 as varchar(2)) Modifier2,
+	cast(Modifier3 as varchar(2)) Modifier3,
+	cast(Modifier4 as varchar(2)) Modifier4,
+	cast(CPTQuantity as int) CPTQuantity,
+	cast(Units as decimal(4,1)) Units,
+	cast(NationalDrugCode as int) NationalDrugCode,
+	cast(SingleQuantityPrice as NUMERIC) SingleQuantityPrice,
+	cast(OriginalAmount as NUMERIC) OriginalAmount,
+	cast(CurrentBalance as NUMERIC) CurrentBalance,
+	cast(ClientCapitatedContract as int) ClientCapitatedContract,
+	cast(UsualCharge as numeric) UsualCharge,
+	cast(OriginationFlag as int) OriginationFlag,
+	cast(LabTestIdentifier as varchar(20)) LabTestIdentifier,
+	cast(BillClientFlag as int) BillClientFlag,
+	cast(CurrentResponsibilityFlag as int) CurrentResponsibilityFlag,
+	cast(BillAccountReason as int) BillAccountReason,
+	cast(BillGuarantorDate as timestamp) BillGuarantorDate,
+	cast(GuarantorCareFacilityID as int) GuarantorCareFacilityID,
+	cast(BillClientReason as int) BillClientReason,
+	cast(ABNFlag as int) ABNFlag,
+	cast(InvoiceStatus as int) InvoiceStatus,
+	cast(InvoiceTo as int) InvoiceTo,
+	cast(InvoiceType as int) InvoiceType,
+	cast(StatementStatus as int) StatementStatus,
+	cast(FirstStatementDate as timestamp) FirstStatementDate,
+	cast(CopayStatementStatus as varchar(50)) CopayStatementStatus,
+	cast(ClaimStatus as int) ClaimStatus,
+	cast(PayerID1 as int) PayerID1,
+	cast(Payer1ClaimID as int) Payer1ClaimID,
+	cast(PayerID2 as int) PayerID2,
+	cast(Payer2ClaimID as int) Payer2ClaimID,
+	cast(PayerID3 as int) PayerID3,
+	cast(Payer3ClaimID as int) Payer3ClaimID,
+	cast(NotificationStatus as int) NotificationStatus,
+	cast(SubmissionReadyDate as timestamp) SubmissionReadyDate,
+	cast(ClaimAmendmentFlag as int) ClaimAmendmentFlag,
+	cast(ClaimDelayReasonID as int) ClaimDelayReasonID,
+	cast(CollectionFlag as int) CollectionFlag,
+	cast(InstanceID as int) InstanceID,
+	cast(AssignedToID as int) NUAssignedToIDLL,
+	cast(NursingHomeBedType as int) NursingHomeBedType,
+	cast(HomeboundIndicator as int) HomeboundIndicator,
+	cast(StatisticStatus as int) StatisticStatus,
+	cast(CreditApplied as int) CreditApplied,
+	cast(PurgeFlag as int) PurgeFlag,
+	cast(PurgeDate as timestamp) PurgeDate,
+	cast(ChangedDT as timestamp) ChangedDT,
+	cast(ChangedByID as int) ChangedByID,
+	cast("Locked" as int) "Locked",
+	cast(LockedByID as int) LockedByID,
+	cast(BadDebtFlag as int) BadDebtFlag,
+	cast(HostBillToAccountNumber as varchar(20)) HostBillToAccountNumber,
+	cast(PQRI as int) PQRI,
+	cast(ClientContractID as int) ClientContractID,
+	cast(ClientContractType as int) ClientContractType,
+	cast(CollectionState as varchar(2)) CollectionState,
+	cast(CollectedAt as int) CollectedAt,
+	cast(PurchasedService as int) PurchasedService,
+	cast(TravelFlag as int) TravelFlag,
+	cast(PairedTravelTransactionID as int) PairedTravelTransactionID,
+	cast(ParentTransactionID as int) ParentTransactionID,
+	cast(ParentProcedureID as int) ParentProcedureID,
+	cast(ExpectedReimbursement as numeric) ExpectedReimbursement,
+	cast(FirstNotificationDate as timestamp) FirstNotificationDate,
+	cast(PSCID as int) PSCID,
+	cast(ContractProjectCode as varchar(50)) ContractProjectCode,
+	cast(AnalyteQuantity as int) AnalyteQuantity,
+	cast(TrxField1ID as int) TrxField1ID,
+	cast(TrxField2 as varchar(50)) TrxField2,
+	cast(ProviderSignatureValidation as int) ProviderSignatureValidation,
+	cast(TestCompletionFlag as int) TestCompletionFlag,
+	cast(OrderIdentifier as varchar(20)) OrderIdentifier,
+	cast(ARBalance as numeric) ARBalance,
+	cast(ARStatus as int) ARStatus,
+	cast(RetainDistinctServiceModifier as int) RetainDistinctServiceModifier,
+	cast(OMPhlebotomistID as int) OMPhlebotomistID,
+	cast(StatementHoldExpiration as timestamp) StatementHoldExpiration,
+	cast(Sub1InstanceID as int) Sub1InstanceID,
+	cast(Sub2InstanceID as int) Sub2InstanceID,
+	cast(ARClosedDate as timestamp) ARClosedDate,
+	cast(OriginatingDate as timestamp) OriginatingDate,
+	cast(DivisionID as int) DivisionID,
+	cast(TransactionNotes as int) TransactionNotes,
+	cast(LatestNoteDate as timestamp) LatestNoteDate,
+	cast(Transition as int) Transition,
+	cast(PrimaryAllowedAmount as numeric) PrimaryAllowedAmount,
+	cast(TransitionClaimNumber as varchar(38)) TransitionClaimNumber,
+	cast(TrxField8 as date) TrxField8,
+	cast(FirstBillDate as date) FirstBillDate,
+	cast(Hospice as int) Hospice,
+	cast(TrxField3 as date) TrxField3,
+	cast(TrxField4 as time) TrxField4,
+	cast(TrxField5 as varchar(100)) TrxField5,
+	cast(TrxField6 as varchar(50)) TrxField6,
+	cast(TrxField7 as varchar(20)) TrxField7,
+	cast(ExpectedNet as numeric) ExpectedNet,
+	cast(CreatedDate as timestamp) CreatedDate,
+	cast(OMClientClassification1ID as int) OMClientClassification1ID,
+	cast(OMClientClassification2ID as int) OMClientClassification2ID,
+	cast(OMClientClassification3ID as int) OMClientClassification3ID,
+	cast(OMClientRepSalesUserID as int) OMClientRepSalesUserID,
+	cast(OMClientAcquisitionID as int) OMClientAcquisitionID,
+	cast(NormalizedCPT as varchar(25)) NormalizedCPT,
+	cast(ProcedureCostID as int) ProcedureCostID,
+	cast(RequisitionID as int) RequisitionID,
+	cast(ReqUpdateFlag as int) ReqUpdateFlag,
+	cast(TotalQuantity as int) TotalQuantity,
+	cast(TotalChargeAmount as numeric) TotalChargeAmount,
+	cast(TotalPaymentAmount as numeric) TotalPaymentAmount,
+	cast(ChargeSubtotal as numeric) ChargeSubtotal,
+	cast(CreditSubtotal as numeric) CreditSubtotal,
+	cast(PayerPaymentSubtotal as numeric) PayerPaymentSubtotal,
+	cast(PatientPaymentSubtotal as numeric) PatientPaymentSubtotal,
+	cast(ContractualAdjustmentSubtotal as numeric) ContractualAdjustmentSubtotal,
+	cast(OtherAdjustmentSubtotal as numeric) OtherAdjustmentSubtotal,
+	cast(RefundSubtotal as numeric) RefundSubtotal,
+	cast(OMClientTransportationRuleID as int) OMClientTransportationRuleID,
+	cast(InstallmentAgreementFlag as int) InstallmentAgreementFlag,
+	cast(CurrentBISInstallmentID as int) CurrentBISInstallmentID,
+	cast(LatestPrimaryAccountPayerID as int) LatestPrimaryAccountPayerID,
+	cast(LatestPrimaryPayerID as int) LatestPrimaryPayerID,
+	cast(DiagnosisList as varchar) DiagnosisList,
+	cast(LatestPrimaryTransactionPayerID as int) LatestPrimaryTransactionPayerID,
+	cast(Reassigned as int) Reassigned,
+	cast(CreditDate as date) CreditDate
+FROM dbo.tbltransaction
+  );
+[0m05:20:38.927586 [debug] [Thread-1  ]: SQL status: SELECT 10000 in 0.24 seconds
+[0m05:20:38.933364 [debug] [Thread-1  ]: Using postgres connection "model.airbyte.tbltransaction"
+[0m05:20:38.933548 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "node_id": "model.airbyte.tbltransaction"} */
+alter table "test_sql_server"."dbo_dwh"."tbltransaction" rename to "tbltransaction__dbt_backup"
+[0m05:20:38.934493 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+[0m05:20:38.936787 [debug] [Thread-1  ]: Using postgres connection "model.airbyte.tbltransaction"
+[0m05:20:38.936981 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "node_id": "model.airbyte.tbltransaction"} */
+alter table "test_sql_server"."dbo_dwh"."tbltransaction__dbt_tmp" rename to "tbltransaction"
+[0m05:20:38.937436 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+[0m05:20:38.957646 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: COMMIT
+[0m05:20:38.957840 [debug] [Thread-1  ]: Using postgres connection "model.airbyte.tbltransaction"
+[0m05:20:38.958006 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: COMMIT
+[0m05:20:38.960565 [debug] [Thread-1  ]: SQL status: COMMIT in 0.0 seconds
+[0m05:20:38.965888 [debug] [Thread-1  ]: Using postgres connection "model.airbyte.tbltransaction"
+[0m05:20:38.966065 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "airbyte", "target_name": "dev", "node_id": "model.airbyte.tbltransaction"} */
+drop view if exists "test_sql_server"."dbo_dwh"."tbltransaction__dbt_backup" cascade
+[0m05:20:38.968191 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.0 seconds
+[0m05:20:38.969278 [debug] [Thread-1  ]: finished collecting timing info
+[0m05:20:38.969450 [debug] [Thread-1  ]: On model.airbyte.tbltransaction: Close
+[0m05:20:38.969918 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3d27e969-c9d1-43c6-913f-720244dd3bcf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f07de7aa3a0>]}
+[0m05:20:38.970253 [info ] [Thread-1  ]: 1 of 1 OK created table model dbo_dwh.tbltransaction ........................... [[32mSELECT 10000[0m in 0.34s]
+[0m05:20:38.970676 [debug] [Thread-1  ]: Finished running node model.airbyte.tbltransaction
+[0m05:20:38.971977 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m05:20:38.972213 [debug] [MainThread]: Using postgres connection "master"
+[0m05:20:38.972345 [debug] [MainThread]: On master: BEGIN
+[0m05:20:38.972488 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m05:20:38.977300 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m05:20:38.977549 [debug] [MainThread]: On master: COMMIT
+[0m05:20:38.977701 [debug] [MainThread]: Using postgres connection "master"
+[0m05:20:38.977837 [debug] [MainThread]: On master: COMMIT
+[0m05:20:38.978043 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m05:20:38.978205 [debug] [MainThread]: On master: Close
+[0m05:20:38.978664 [info ] [MainThread]: 
+[0m05:20:38.978993 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.41 seconds (0.41s).
+[0m05:20:38.979323 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m05:20:38.979504 [debug] [MainThread]: Connection 'model.airbyte.tbltransaction' was properly closed.
+[0m05:20:38.985171 [info ] [MainThread]: 
+[0m05:20:38.985533 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m05:20:38.985880 [info ] [MainThread]: 
+[0m05:20:38.986114 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m05:20:38.986422 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f07e5d41ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f07de7a5be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f07de7a57c0>]}

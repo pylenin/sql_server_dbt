@@ -1,0 +1,12 @@
+airbyte:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: Sarata@1960
+      dbname: test_sql_server
+      port: 5432
+      schema: dbo_dwh
+      threads: 3
